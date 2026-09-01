@@ -1,0 +1,14 @@
+{
+  "intervals": {
+    "notes": 40,
+    "annotations_checked": 152,
+    "intervals_correct": 152,
+    "unresolvable": 0,
+    "notes_with_failure": 0,
+    "residual_date_surfaces": 14
+  },
+  "interval_failures": [],
+  "residual_samples": [
+    "2-3/10"
+  ]
+}

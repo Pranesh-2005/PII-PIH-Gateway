@@ -1,0 +1,74 @@
+WHITFIELD, MARCUS D.  |  DOB 03/14/1987  |  CLAIM PI-2024-8871                                                                          PRODUCED 01/22/2025
+
+                                                    VALLEY IMAGING PARTNERS
+                                                    Advanced Diagnostic Imaging | 1.5T MRI Suite
+
+                                              MRI LUMBAR SPINE WITHOUT CONTRAST
+
+   Patient                                     Whitfield, Marcus D.
+   DOB                                         03/14/1987
+   Date of Exam                                03/06/2024
+   Accession                                   MR-24-20719 CPT 72148
+   Referring                                   L. Osei-Bonsu, MD
+
+ CLINICAL HISTORY
+ 36-year-old male, motor vehicle collision 02/11/2024. Persistent right lower extremity radicular pain with L5 sensory deficit and
+ mild weakness. Evaluate for disc herniation.
+
+ TECHNIQUE
+ Multiplanar, multisequence imaging of the lumbar spine performed without intravenous contrast. Sagittal T1, sagittal T2, sagittal
+ STIR, and axial T2 sequences obtained from T12 through S1.
+
+ COMPARISON
+ Lumbar radiographs dated 02/11/2024. No prior cross-sectional imaging available for comparison at this institution.
+
+ FINDINGS
+ Alignment: Normal lumbar alignment. No spondylolisthesis.
+ Vertebrae: Vertebral body heights and marrow signal are normal. No marrow edema on STIR to suggest acute osseous injury. No
+ compression deformity.
+ Conus medullaris terminates at the L1 level and is normal in signal.
+ T12-L1 through L3-L4: No significant disc bulge, herniation, or stenosis. Facets unremarkable.
+ L4-L5: Moderate disc desiccation with loss of disc height. Broad-based disc bulge with a superimposed RIGHT PARACENTRAL
+ DISC PROTRUSION measuring approximately 6 mm in AP dimension, extending into the right lateral recess. There is contact
+ with and mild posterior displacement of the traversing right L5 nerve root. Mild bilateral facet hypertrophy and ligamentum flavum
+ thickening. Resulting mild to moderate right lateral recess stenosis. Central canal is patent. Neural foramina mildly narrowed on the
+ right.
+ L5-S1: Disc desiccation with mild loss of height. Small central disc bulge without focal herniation. Moderate bilateral facet
+ arthropathy with periarticular sclerosis. No significant stenosis. Neural foramina patent bilaterally.
+ Paraspinal soft tissues: Unremarkable. No hematoma or edema.
+
+ IMPRESSION
+ 1. L4-L5 right paracentral disc protrusion measuring 6 mm with contact and mild displacement of the traversing right L5 nerve root
+ and mild to moderate right lateral recess stenosis. This finding correlates with the reported right L5 radicular symptoms.
+ 2. Multilevel degenerative disc disease at L4-L5 and L5-S1 with facet arthropathy. Disc desiccation and facet changes are chronic
+ and predate the reported injury; the superimposed focal protrusion cannot be dated by imaging alone.
+ 3. No acute fracture, marrow edema, or ligamentous injury.
+ Reported by: Anand Ramchandran, MD | Electronically signed 03/06/2024 15:03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                    LTM-PI-00008

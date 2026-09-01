@@ -1,0 +1,56 @@
+CHESTNUT VALLEY REGIONAL MEDICAL CENTER
+Department of Internal Medicine
+1420 Chestnut Ridge Road, Ashfield, MA 02139
+Phone: (617) 555-0142    Fax: (617) 555-0198
+portal: https://portal.chestnutvalley.example.org/mychart
+
+Patient Name: WOOD, JOHN A          MRN: 4482910
+DOB: 03/14/1952                     Sex: M
+Age: 72                             Account #: ACT-88213094
+SSN: 123-45-6789                    Insurance ID: BCBS-MA-77419320
+Address: 88 Larkspur Lane, Apt 4B, Ashfield, MA 02139
+Home Phone: 617-555-0311            Email: jwood52@example.com
+Emergency Contact: Margaret Wood (spouse), 617-555-0377
+
+Admission Date: 03/14/2024          Discharge Date: 03/21/2024
+Attending Physician: SMITH, ELENA R MD    NPI: 1234567893
+Consulting Neurologist: Dr. Parkinson     DEA: AB1234563
+Referring Provider: Wood Memorial Family Practice
+
+HISTORY OF PRESENT ILLNESS
+Mr. Wood is a 72-year-old male with a history of hypertension and type 2
+diabetes who presented on 03/14/2024 with a three-day history of resting
+tremor and progressive bradykinesia. Dr. Parkinson was consulted on 03/17/2024
+and confirmed a diagnosis of Parkinson's disease, Hoehn and Yahr stage II.
+Wood was previously seen at Wood Memorial Family Practice in January 2024 for
+an unrelated complaint.
+
+PAST MEDICAL HISTORY
+1. Hypertension, diagnosed 2011
+2. Type 2 diabetes mellitus, A1C 7.4 on 03/15/2024
+3. Cholecystectomy, 2009
+4. Father died of Alzheimer's disease at age 91
+
+MEDICATIONS
+- Carbidopa-levodopa 25/100 mg PO TID
+- Lisinopril 10 mg PO daily
+- Metformin 1000 mg PO BID
+
+PHYSICAL EXAMINATION
+BP 148/86, HR 72, Temp 98.4 F, SpO2 97% on room air.
+Neurologic: cogwheel rigidity of the right upper extremity. Bell's palsy
+absent. Romberg negative.
+
+ASSESSMENT AND PLAN
+Idiopathic Parkinson's disease (ICD-10 G20). Started carbidopa-levodopa on
+03/17/2024 with good response by 03/19/2024. Physical therapy arranged through
+Ashfield Community Rehabilitation. Follow up with Dr. Smith on 04/04/2024.
+Home glucose monitor issued, device serial DEV-QX44172.
+
+Discussed the case with the patient's daughter, Ms. Sarah Wood-Feldman, by
+telephone at 617-555-0388.
+
+Dictated by: Elena R. Smith, MD
+Transcribed 03/21/2024 by T. Alvarez, CMT
+Electronically signed: Elena R. Smith, MD  03/21/2024 16:42
+Workstation 10.14.22.187

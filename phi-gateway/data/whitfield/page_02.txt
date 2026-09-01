@@ -1,0 +1,75 @@
+WHITFIELD, MARCUS D.  |  DOB 03/14/1987  |  CLAIM PI-2024-8871                                                                      PRODUCED 01/22/2025
+
+                                        PIEDMONT COUNTY GENERAL HOSPITAL
+                                          Department of Emergency Medicine | 4100 Wellstone Parkway
+
+                                EMERGENCY DEPARTMENT TRIAGE & NURSING RECORD
+
+   Patient                                   Whitfield, Marcus D.
+   MRN                                       PCG-4471902
+   Account / Encounter                       ED-24-0211-556
+   Arrival                                   02/11/2024 18:19 via EMS
+   Triage Acuity                             ESI Level 3
+   Allergies                                 CODEINE (rash, documented by patient) ; NKA otherwise
+
+ TRIAGE NOTE (18:22)
+ Restrained driver rear-ended at moderate speed approximately 1 hour ago. Reports neck pain, low back pain radiating into the right
+ buttock and posterior thigh. Denies LOC. Arrived in c-collar per EMS. Ambulates with a slow antalgic gait. Pain rated 8/10 at
+ triage.
+
+ NURSING ASSESSMENT
+ Alert, oriented, cooperative, in no acute distress but visibly uncomfortable when repositioning. Neurovascular intact all four
+ extremities. Sensation intact to light touch. Strength 5/5 bilaterally in upper extremities; right lower extremity limited by pain,
+ patient able to dorsiflex and plantarflex. Capillary refill less than 2 seconds. Skin intact, no abrasions or seatbelt marks noted.
+
+ INTAKE QUESTIONNAIRE (patient-completed)
+   Prior motor vehicle accidents?            NO
+   Prior back injury or back                 NO
+   treatment?
+   Currently working?                        YES - warehouse logistics coordinator, full duty
+   Current medications?                      None daily. Occasional ibuprofen.
+   Tobacco / Alcohol                         Never smoker. Social alcohol, 2-3 drinks per week.
+
+ VITAL SIGNS - ED COURSE
+   18:25                                     BP 144/86 HR 92 RR 18 T 98.2F SpO2 99% Pain 8/10
+   19:40                                     BP 136/82 HR 84 RR 16 T 98.4F SpO2 99% Pain 6/10
+   21:15                                     BP 132/78 HR 78 RR 16 T 98.1F SpO2 100% Pain 4/10
+
+ MEDICATIONS ADMINISTERED IN ED
+   19:05                                     Ketorolac 30 mg IV x1 - given by R. Delacroix, RN
+   19:05                                     Methocarbamol 1000 mg IV x1 - given by R. Delacroix, RN
+
+ NURSING DISPOSITION
+ Cervical collar removed at 21:05 per physician order following negative imaging. Patient tolerated collar removal without increase
+ in symptoms. Ambulated in hallway with steady though guarded gait. Discharge instructions reviewed, patient verbalized
+ understanding. Departed ambulatory with spouse at 21:52.
+ Electronically signed: R. Delacroix, RN | 02/11/2024 21:58
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                LTM-PI-00002

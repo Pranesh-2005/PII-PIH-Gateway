@@ -1,0 +1,118 @@
+# PHI Gateway policy.
+#
+# Every knob that changes the leak/utility trade-off lives here so the trade-off can be
+# *measured* rather than argued about. `eval/harness.py --policy <file>` sweeps these.
+
+# ---------------------------------------------------------------------------------
+# Date handling. The single most consequential choice in the whole system.
+#
+#   safe_harbor         Every date element removed except the year. Strictly HIPAA
+#                       Safe Harbor conformant. Destroys interval reasoning.
+#
+#   interval_preserving Dates become [DATE_1], [DATE_2 = DATE_1 + 3d]. No date element
+#                       is ever emitted, so still Safe Harbor clean, but the LLM can
+#                       still reason about "3 days post-op". DEFAULT.
+#
+#   shifted             Consistent per-patient offset, HMAC-derived. Intervals exact,
+#                       text reads naturally. NOTE: a shifted date is still a date
+#                       element, so this is Expert Determination / Limited Data Set
+#                       territory, NOT Safe Harbor. Documented, not hidden.
+# ---------------------------------------------------------------------------------
+dates:
+  mode: interval_preserving
+  retain_year: false          # Safe Harbor permits a bare year; off by default (conservative)
+  shift_window_days: 180      # only used when mode == shifted
+  emit_interval_annotations: true
+
+ages:
+  # Safe Harbor permits ages <= 89 verbatim. Retaining them is a free utility win.
+  retain_under_90: true
+  over_89_placeholder: "[AGE_OVER_89]"
+
+geo:
+  # Safe Harbor permits the first 3 ZIP digits, EXCEPT for the low-population prefixes
+  # listed in restricted_zip3 (those must be reported as 000).
+  zip_strategy: truncate3     # truncate3 | remove
+  restricted_zip3: ["036","059","063","102","203","556","692","790","821","823",
+                    "830","831","878","879","884","890","893"]
+
+# ---------------------------------------------------------------------------------
+# Per-category action and detection threshold.
+#
+# Thresholds are deliberately asymmetric: a false negative is a breach, a false
+# positive is an inconvenience. Names and identifiers sit low on purpose.
+# ---------------------------------------------------------------------------------
+categories:
+  NAME_PATIENT:    {action: mask, threshold: 0.20, hipaa: 1}
+  NAME_PROVIDER:   {action: mask, threshold: 0.20, hipaa: 1}
+  NAME_OTHER:      {action: mask, threshold: 0.25, hipaa: 1}
+  ORG:             {action: mask, threshold: 0.30, hipaa: 2}
+  GEO_STREET:      {action: mask, threshold: 0.25, hipaa: 2}
+  GEO_CITY:        {action: mask, threshold: 0.30, hipaa: 2}
+  GEO_ZIP:         {action: mask, threshold: 0.30, hipaa: 2}
+  DATE:            {action: mask, threshold: 0.25, hipaa: 3}
+  AGE:             {action: retain, threshold: 0.40, hipaa: 3}
+  PHONE:           {action: mask, threshold: 0.20, hipaa: 4}
+  FAX:             {action: mask, threshold: 0.20, hipaa: 5}
+  EMAIL:           {action: mask, threshold: 0.20, hipaa: 6}
+  SSN:             {action: mask, threshold: 0.10, hipaa: 7}
+  MRN:             {action: mask, threshold: 0.15, hipaa: 8}
+  HEALTH_PLAN_ID:  {action: mask, threshold: 0.20, hipaa: 9}
+  ACCOUNT:         {action: mask, threshold: 0.20, hipaa: 10}
+  LICENCE:         {action: mask, threshold: 0.20, hipaa: 11}
+  VEHICLE:         {action: mask, threshold: 0.20, hipaa: 12}
+  DEVICE:          {action: mask, threshold: 0.25, hipaa: 13}
+  URL:             {action: mask, threshold: 0.20, hipaa: 14}
+  IP:              {action: mask, threshold: 0.20, hipaa: 15}
+  ID_GENERIC:      {action: mask, threshold: 0.35, hipaa: 18}
+  PROFESSION:      {action: mask, threshold: 0.45, hipaa: 18}
+
+# ---------------------------------------------------------------------------------
+# Stage C: neural tagger. Absent in Phase 1 — the gateway runs rules-only and still
+# completes the full round trip. Enabling this is purely additive.
+# ---------------------------------------------------------------------------------
+neural:
+  enabled: true
+  model_path: "artifacts/tagger"
+  device: cpu
+  max_length: 512
+  stride: 128
+  # Spans inside headers/footers/tables/signature blocks get their threshold
+  # multiplied by this. PHI density is high there, so we get more suspicious.
+  structured_segment_threshold_scale: 0.6
+
+# ---------------------------------------------------------------------------------
+# Stage G: leak self-check. Re-scans our own masked output and refuses to forward
+# on a hit. This is the stage that answers "assume we will find leaks if they exist".
+# ---------------------------------------------------------------------------------
+selfcheck:
+  enabled: true
+  on_leak: block              # block | warn
+  paranoid_threshold: 0.10    # rescan threshold, far below normal detection
+
+review_queue:
+  # Spans whose score lands in this band are masked AND queued for human review.
+  enabled: true
+  low: 0.20
+  high: 0.55
+
+vault:
+  ttl_seconds: 3600
+  # 32-byte base64 key from env PHI_VAULT_KEY. Ephemeral per-process key if unset.
+  key_env: PHI_VAULT_KEY
+
+llm:
+  # Both are OpenAI-compatible, so one client covers both. Model IDs are discovered
+  # at runtime via GET /models rather than hardcoded: both providers rotate their
+  # catalogues and a dead model ID during the live demo is an avoidable crash.
+  providers:
+    - name: groq
+      base_url: "https://api.groq.com/openai/v1"
+      api_key_env: GROQ_API_KEY
+      prefer: ["llama-3.3-70b", "llama-3.1-70b", "gpt-oss-120b", "kimi-k2", "llama-3.1-8b"]
+    - name: nvidia
+      base_url: "https://integrate.api.nvidia.com/v1"
+      api_key_env: NVIDIA_API_KEY
+      prefer: ["llama-3.3-70b", "nemotron", "llama-3.1-70b", "llama-3.1-8b"]
+  timeout_seconds: 60
+  max_retries: 2

@@ -1,0 +1,80 @@
+WHITFIELD, MARCUS D.  |  DOB 03/14/1987  |  CLAIM PI-2024-8871                                                                       PRODUCED 01/22/2025
+
+                                        PIEDMONT COUNTY GENERAL HOSPITAL
+                                                                Department of Radiology
+
+                                                    DIAGNOSTIC IMAGING REPORTS
+
+   Patient                                    Whitfield, Marcus D. MRN PCG-4471902
+   Date of Service                            02/11/2024
+
+ EXAM 1: CT CERVICAL SPINE WITHOUT CONTRAST
+ Accession: CT-24-118844 | Performed 19:48 | CPT 72125
+ INDICATION: Motor vehicle collision with midline cervical tenderness.
+ TECHNIQUE: Helical axial images obtained from the skull base through T1 with sagittal and coronal reformations. No intravenous
+ contrast.
+ FINDINGS: Vertebral body heights are maintained. Alignment is anatomic with preservation of the anterior and posterior vertebral
+ lines. No acute fracture is identified. Facet joints are congruent bilaterally. Mild disc space narrowing at C5-C6 with small anterior
+ osteophyte formation, degenerative in nature. Prevertebral soft tissues are within normal limits. Visualized lung apices are clear.
+ IMPRESSION:
+ 1. No acute fracture or traumatic malalignment of the cervical spine.
+ 2. Mild degenerative disc disease at C5-C6, chronic.
+ Reported by: A. Ramachandran, MD | Signed 02/11/2024 20:22
+
+ EXAM 2: RADIOGRAPHS LUMBAR SPINE, 3 VIEWS
+ Accession: XR-24-118851 | Performed 20:05 | CPT 72100
+ INDICATION: Low back pain following motor vehicle collision.
+ TECHNIQUE: AP, lateral, and spot lateral views of the lumbar spine.
+ FINDINGS: Five non-rib-bearing lumbar vertebrae. Vertebral body heights preserved without compression deformity. No
+ spondylolisthesis on the lateral view. Mild disc space narrowing at L4-L5 with endplate sclerosis. Facet arthropathy at L4-L5 and
+ L5-S1, mild to moderate. Sacroiliac joints unremarkable. No acute fracture.
+ IMPRESSION:
+ 1. No acute fracture or listhesis.
+ 2. Degenerative disc disease and facet arthropathy at L4-L5 and L5-S1. These findings are chronic and of longstanding duration.
+ 3. Clinical correlation recommended. MRI may be considered if radicular symptoms persist.
+ Reported by: A. Ramachandran, MD | Signed 02/11/2024 20:44
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                  LTM-PI-00004

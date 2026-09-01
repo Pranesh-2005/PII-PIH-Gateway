@@ -1,0 +1,476 @@
+{
+  "gateway": {
+    "overall": {
+      "precision": 0.9148,
+      "recall": 0.9807,
+      "f1": 0.9466,
+      "leak_rate": 0.4289,
+      "uncovered_rate": 0.0,
+      "uncovered_spans": 0,
+      "exact_boundary": 0.9452,
+      "notes": 450,
+      "p50_ms": 1007.5,
+      "p95_ms": 2769.3
+    },
+    "by_source": {
+      "synthetic": {
+        "precision": 0.9223,
+        "recall": 0.9769,
+        "f1": 0.9488,
+        "leak_rate": 0.63,
+        "uncovered_rate": 0.0,
+        "uncovered_spans": 0,
+        "exact_boundary": 0.9472,
+        "notes": 300,
+        "p50_ms": 1261.9,
+        "p95_ms": 2908.9
+      },
+      "adversarial": {
+        "precision": 0.8837,
+        "recall": 0.9978,
+        "f1": 0.9373,
+        "leak_rate": 0.0267,
+        "uncovered_rate": 0.0,
+        "uncovered_spans": 0,
+        "exact_boundary": 0.9361,
+        "notes": 150,
+        "p50_ms": 451.5,
+        "p95_ms": 698.1
+      }
+    },
+    "per_category": {
+      "AGE": {
+        "tp": 245,
+        "fp": 105,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "DATE": {
+        "tp": 2249,
+        "fp": 0,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "EMAIL": {
+        "tp": 151,
+        "fp": 0,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "GEO": {
+        "tp": 714,
+        "fp": 0,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "ID": {
+        "tp": 1315,
+        "fp": 226,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "NAME": {
+        "tp": 2888,
+        "fp": 305,
+        "fn": 1,
+        "recall": 0.9997
+      },
+      "ORG": {
+        "tp": 1497,
+        "fp": 95,
+        "fn": 193,
+        "recall": 0.8858
+      },
+      "PHONE": {
+        "tp": 823,
+        "fp": 0,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "PROFESSION": {
+        "tp": 0,
+        "fp": 189,
+        "fn": 0,
+        "recall": 0.0
+      }
+    },
+    "missed_surfaces": {
+      "NAME": [
+        {
+          "text": "brightwater",
+          "n": 1
+        }
+      ],
+      "ORG": [
+        {
+          "text": "Marlow Cartage LLP",
+          "n": 65
+        },
+        {
+          "text": "Kesterly Transport LLC",
+          "n": 65
+        },
+        {
+          "text": "Brightline Distribution Inc.",
+          "n": 59
+        },
+        {
+          "text": "wexford hollow urgent care",
+          "n": 3
+        },
+        {
+          "text": "Wexford Hollow Urgent Care",
+          "n": 1
+        }
+      ]
+    }
+  },
+  "regex_only": {
+    "overall": {
+      "precision": 0.9353,
+      "recall": 0.8334,
+      "f1": 0.8814,
+      "leak_rate": 0.9889,
+      "uncovered_rate": 0.9844,
+      "uncovered_spans": 1489,
+      "exact_boundary": 0.7704,
+      "notes": 450,
+      "p50_ms": 14.1,
+      "p95_ms": 28.0
+    },
+    "by_source": {
+      "synthetic": {
+        "precision": 0.9528,
+        "recall": 0.849,
+        "f1": 0.8979,
+        "leak_rate": 1.0,
+        "uncovered_rate": 0.9933,
+        "uncovered_spans": 1052,
+        "exact_boundary": 0.7796,
+        "notes": 300,
+        "p50_ms": 17.7,
+        "p95_ms": 29.9
+      },
+      "adversarial": {
+        "precision": 0.8575,
+        "recall": 0.7639,
+        "f1": 0.808,
+        "leak_rate": 0.9667,
+        "uncovered_rate": 0.9667,
+        "uncovered_spans": 437,
+        "exact_boundary": 0.7249,
+        "notes": 150,
+        "p50_ms": 6.7,
+        "p95_ms": 13.4
+      }
+    },
+    "per_category": {
+      "AGE": {
+        "tp": 245,
+        "fp": 105,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "DATE": {
+        "tp": 2249,
+        "fp": 0,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "EMAIL": {
+        "tp": 151,
+        "fp": 0,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "GEO": {
+        "tp": 476,
+        "fp": 0,
+        "fn": 238,
+        "recall": 0.6667
+      },
+      "ID": {
+        "tp": 1315,
+        "fp": 0,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "NAME": {
+        "tp": 1996,
+        "fp": 214,
+        "fn": 893,
+        "recall": 0.6909
+      },
+      "ORG": {
+        "tp": 1142,
+        "fp": 73,
+        "fn": 548,
+        "recall": 0.6757
+      },
+      "PHONE": {
+        "tp": 823,
+        "fp": 0,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "PROFESSION": {
+        "tp": 0,
+        "fp": 189,
+        "fn": 0,
+        "recall": 0.0
+      }
+    },
+    "missed_surfaces": {
+      "GEO": [
+        {
+          "text": "Elmsworth",
+          "n": 39
+        },
+        {
+          "text": "Foxglove Creek",
+          "n": 36
+        },
+        {
+          "text": "Harrowgate",
+          "n": 32
+        },
+        {
+          "text": "Wexford Hollow",
+          "n": 29
+        },
+        {
+          "text": "Thornbury",
+          "n": 27
+        },
+        {
+          "text": "Saltmarsh",
+          "n": 26
+        },
+        {
+          "text": "Silverton",
+          "n": 25
+        },
+        {
+          "text": "Brackenridge",
+          "n": 24
+        }
+      ],
+      "NAME": [
+        {
+          "text": "papadopoulos",
+          "n": 12
+        },
+        {
+          "text": "ravindran",
+          "n": 11
+        },
+        {
+          "text": "brightwater",
+          "n": 10
+        },
+        {
+          "text": "quintanilla",
+          "n": 9
+        },
+        {
+          "text": "fitzsimmons",
+          "n": 9
+        },
+        {
+          "text": "adeyemi",
+          "n": 8
+        },
+        {
+          "text": "oyelaran",
+          "n": 8
+        },
+        {
+          "text": "kealoha",
+          "n": 7
+        },
+        {
+          "text": "tsevendorj",
+          "n": 7
+        },
+        {
+          "text": "larrabee",
+          "n": 6
+        },
+        {
+          "text": "F. Baumgartner",
+          "n": 5
+        },
+        {
+          "text": "O. Rasmussen",
+          "n": 5
+        },
+        {
+          "text": "chukwuma",
+          "n": 5
+        },
+        {
+          "text": "baumgartner",
+          "n": 5
+        },
+        {
+          "text": "andrzejewski",
+          "n": 5
+        },
+        {
+          "text": "rasmussen",
+          "n": 5
+        },
+        {
+          "text": "Xiomara Oyelaran",
+          "n": 4
+        },
+        {
+          "text": "A. Larrabee",
+          "n": 4
+        },
+        {
+          "text": "Soren Ravindran",
+          "n": 4
+        },
+        {
+          "text": "Clementine Andrzejewski",
+          "n": 4
+        },
+        {
+          "text": "W. Quintanilla",
+          "n": 4
+        },
+        {
+          "text": "CHUKWUMA, WILHELMINA",
+          "n": 4
+        },
+        {
+          "text": "B. Quintanilla",
+          "n": 4
+        },
+        {
+          "text": "espinoza",
+          "n": 4
+        },
+        {
+          "text": "winterbourne",
+          "n": 4
+        },
+        {
+          "text": "Yusuf Papadopoulos",
+          "n": 3
+        },
+        {
+          "text": "Clementine Papadopoulos",
+          "n": 3
+        },
+        {
+          "text": "G. Ravindran",
+          "n": 3
+        },
+        {
+          "text": "Rasheed Andrzejewski",
+          "n": 3
+        },
+        {
+          "text": "BAUMGARTNER, SOREN",
+          "n": 3
+        },
+        {
+          "text": "Femi Haugland",
+          "n": 3
+        },
+        {
+          "text": "I. Fitzsimmons",
+          "n": 3
+        },
+        {
+          "text": "Genevieve Quintanilla",
+          "n": 3
+        },
+        {
+          "text": "L. Ravindran",
+          "n": 3
+        },
+        {
+          "text": "S. Espinoza",
+          "n": 3
+        },
+        {
+          "text": "W. Larrabee",
+          "n": 3
+        },
+        {
+          "text": "W. Adeyemi",
+          "n": 3
+        },
+        {
+          "text": "Rasheed Oyelaran",
+          "n": 3
+        },
+        {
+          "text": "I. Ravindran",
+          "n": 3
+        },
+        {
+          "text": "Soren Tsevendorj",
+          "n": 3
+        }
+      ],
+      "ORG": [
+        {
+          "text": "Harrowgate Physical Therapy Group",
+          "n": 122
+        },
+        {
+          "text": "Silverton Cardiology Specialists",
+          "n": 117
+        },
+        {
+          "text": "Marlow Cartage LLP",
+          "n": 65
+        },
+        {
+          "text": "Kesterly Transport LLC",
+          "n": 65
+        },
+        {
+          "text": "Brightline Distribution Inc.",
+          "n": 59
+        },
+        {
+          "text": "harrowgate physical therapy group",
+          "n": 26
+        },
+        {
+          "text": "silverton cardiology specialists",
+          "n": 17
+        },
+        {
+          "text": "wexford hollow urgent care",
+          "n": 17
+        },
+        {
+          "text": "foxglove creek rehabilitation pavilion",
+          "n": 15
+        },
+        {
+          "text": "thornbury memorial hospital",
+          "n": 14
+        },
+        {
+          "text": "brackenridge spine institute",
+          "n": 12
+        },
+        {
+          "text": "elmsworth diagnostics laboratory",
+          "n": 10
+        },
+        {
+          "text": "saltmarsh community health center",
+          "n": 9
+        }
+      ]
+    }
+  }
+}

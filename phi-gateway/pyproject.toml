@@ -1,0 +1,67 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phi-gateway"
+version = "0.1.0"
+description = "PHI/PII de-identification gateway for clinical text in front of a foundation LLM"
+requires-python = ">=3.10"
+dependencies = [
+    # No python-dateutil on purpose: it invents a year for "3/14", which is how a
+    # de-identifier ends up shifting two dates by different amounts. See policy/dates.py.
+    "rapidfuzz>=3.6",
+    "cryptography>=42.0",
+    "pyyaml>=6.0",
+    "pydantic>=2.6",
+    "fastapi>=0.110",
+    "uvicorn>=0.29",
+    "openai>=1.30",
+    # Document ingest. Records arrive as PDF and DOCX, not as .txt, so reading them is part
+    # of the gateway rather than a preprocessing script -- see phi_gateway/ingest.py.
+    # pdfplumber for layout-preserving extraction (form fields and table columns are what the
+    # structural pre-pass keys off), pypdf as the always-present fallback.
+    "pypdf>=4.2",
+    "pdfplumber>=0.11",
+    "python-docx>=1.1",
+]
+
+[project.optional-dependencies]
+# Neural tagger (Phase 3+). Kept out of the core so the gateway runs anywhere.
+ml = [
+    "torch>=2.2",
+    "transformers>=4.48",
+    "datasets>=2.19",
+    "accelerate>=0.30",
+    "seqeval>=1.2",
+]
+# Data generation (Phase 2)
+data = [
+    "faker>=25.0",
+    "datasets>=2.19",
+]
+# Evaluation + baselines (Phase 7+)
+eval = [
+    "presidio-analyzer>=2.2",
+    "spacy>=3.7",
+    "matplotlib>=3.8",
+    "pandas>=2.2",
+]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+]
+
+[project.scripts]
+phi-gateway = "phi_gateway.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+# The web UI is a data file, not a module, so a non-editable install drops it without this.
+[tool.setuptools.package-data]
+phi_gateway = ["service/static/*.html"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

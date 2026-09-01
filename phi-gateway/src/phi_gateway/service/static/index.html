@@ -1,0 +1,377 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PHI Gateway</title>
+<!--
+  Plain HTML/CSS/JS, one file, no build step and no CDN. That last part is deliberate: the whole
+  premise of this project is that a clinical note never leaves the machine, and a page that pulls
+  a font or a framework from a third party on every load contradicts it. Everything here is
+  served by the same uvicorn process that does the masking.
+
+  ponytail: no framework, no bundler, no state library. Three fetch calls and some innerHTML.
+-->
+<style>
+  :root {
+    --bg: #f6f7f9; --panel: #fff; --ink: #14171a; --muted: #5b6470; --line: #dfe3e8;
+    --accent: #1f6feb; --ok: #157f3d; --bad: #c1121f; --warn: #9a6700;
+    --mark-bg: #e7f0ff; --mark-ink: #0a3d91; --mono: ui-monospace, "Cascadia Code", Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14171a; --panel: #1c2126; --ink: #e6e9ec; --muted: #97a1ad; --line: #2c333b;
+      --accent: #58a6ff; --ok: #3fb950; --bad: #f85149; --warn: #d29922;
+      --mark-bg: #17324f; --mark-ink: #a7ccff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  header {
+    padding: 18px 24px; border-bottom: 1px solid var(--line); background: var(--panel);
+    display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap;
+  }
+  h1 { font-size: 17px; margin: 0; font-weight: 650; letter-spacing: -0.01em; }
+  h1 span { color: var(--muted); font-weight: 400; }
+  #health { margin-left: auto; display: flex; gap: 6px; flex-wrap: wrap; }
+  .pill {
+    font: 500 11.5px/1 var(--mono); padding: 5px 9px; border-radius: 999px;
+    background: var(--bg); border: 1px solid var(--line); color: var(--muted);
+  }
+  main { max-width: 1400px; margin: 0 auto; padding: 20px 24px 60px; }
+  .card {
+    background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
+    padding: 16px 18px; margin-bottom: 16px;
+  }
+  .card > h2 {
+    font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted);
+    margin: 0 0 12px; font-weight: 600;
+  }
+  .row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+  textarea, input[type=text] {
+    width: 100%; font: 13px/1.55 var(--mono); color: var(--ink); background: var(--bg);
+    border: 1px solid var(--line); border-radius: 7px; padding: 10px 12px; resize: vertical;
+  }
+  textarea { min-height: 130px; }
+  button {
+    font: 600 13.5px/1 system-ui, sans-serif; padding: 10px 16px; border-radius: 7px;
+    border: 1px solid transparent; background: var(--accent); color: #fff; cursor: pointer;
+  }
+  button.ghost { background: transparent; border-color: var(--line); color: var(--ink); }
+  button:disabled { opacity: 0.5; cursor: progress; }
+  input[type=file] { font-size: 13px; color: var(--muted); }
+  label.inline { font-size: 13px; color: var(--muted); display: flex; gap: 7px; align-items: center; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 900px) { .cols { grid-template-columns: 1fr; } }
+  pre {
+    margin: 0; font: 12.5px/1.6 var(--mono); white-space: pre-wrap; word-break: break-word;
+    max-height: 460px; overflow: auto; background: var(--bg);
+    border: 1px solid var(--line); border-radius: 7px; padding: 12px;
+  }
+  mark {
+    background: var(--mark-bg); color: var(--mark-ink); border-radius: 4px;
+    padding: 0 3px; font-weight: 600;
+  }
+  .banner {
+    padding: 11px 14px; border-radius: 8px; font-size: 13.5px; font-weight: 550;
+    border: 1px solid; margin-bottom: 16px; display: none;
+  }
+  .banner.show { display: block; }
+  .banner.ok   { color: var(--ok);  border-color: var(--ok);  background: color-mix(in srgb, var(--ok) 8%, transparent); }
+  .banner.bad  { color: var(--bad); border-color: var(--bad); background: color-mix(in srgb, var(--bad) 8%, transparent); }
+  .banner.warn { color: var(--warn);border-color: var(--warn);background: color-mix(in srgb, var(--warn) 8%, transparent); }
+  .banner ul { margin: 8px 0 0; padding-left: 20px; font-family: var(--mono); font-size: 12.5px; }
+  .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+  .chip {
+    font: 500 12px/1 var(--mono); padding: 6px 9px; border-radius: 6px;
+    background: var(--bg); border: 1px solid var(--line);
+  }
+  .chip b { color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+  th, td { text-align: left; padding: 7px 9px; border-bottom: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; font-size: 11px; text-transform: uppercase; }
+  td.m { font-family: var(--mono); }
+  details summary { cursor: pointer; font-size: 13px; color: var(--accent); }
+  .note { font-size: 12.5px; color: var(--muted); margin: 8px 0 0; }
+  .hide { display: none; }
+</style>
+
+<header>
+  <h1>PHI Gateway <span>— mask, round-trip, rehydrate</span></h1>
+  <div id="health"><span class="pill">connecting…</span></div>
+</header>
+
+<main>
+  <div id="banner" class="banner"></div>
+
+  <div class="card">
+    <h2>1 · Input</h2>
+    <div class="row" style="margin-bottom:12px">
+      <input type="file" id="file" accept=".pdf,.docx,.txt,.md,.rtf">
+      <span class="note" style="margin:0">PDF, DOCX or text — or paste below.</span>
+    </div>
+    <textarea id="raw" placeholder="Paste a clinical note here…"></textarea>
+    <div class="row" style="margin-top:12px">
+      <button id="mask">Mask</button>
+      <button id="trip" class="ghost">Mask → LLM → rehydrate</button>
+      <button id="sample" class="ghost">Sample note</button>
+      <button id="sampleHard" class="ghost">Sample: adversarial</button>
+      <label class="inline">patient key
+        <input type="text" id="pkey" placeholder="optional — shares a date offset" style="width:230px">
+      </label>
+    </div>
+    <p class="note">
+      The adversarial sample is the honest one: eponyms in both roles (Dr. Parkinson vs
+      Parkinson's disease), a surname that is also the hospital, a provider with no
+      <code>Dr.</code> cue. It also still leaks two spans — <code>Bell</code> the charge nurse
+      and a lowercase city — both named in <code>eval/REPORT.md</code>.
+    </p>
+    <p class="note">
+      The mapping is never sent to the browser. You get a <code>session_id</code>; the
+      re-identification key stays encrypted server-side and is only touched inside
+      <code>/rehydrate</code>.
+    </p>
+  </div>
+
+  <div class="card" id="out" style="display:none">
+    <h2>2 · Result <span id="sid" class="pill"></span></h2>
+    <div class="chips" id="stats" style="margin-bottom:14px"></div>
+    <div class="cols">
+      <div>
+        <h2>Raw — contains PHI</h2>
+        <pre id="rawOut"></pre>
+      </div>
+      <div>
+        <h2>Masked — safe to forward</h2>
+        <pre id="maskOut"></pre>
+      </div>
+    </div>
+    <details style="margin-top:14px" id="rqWrap">
+      <summary>Human-review queue (<span id="rqN">0</span>) — low-confidence spans</summary>
+      <p class="note">
+        Shows the original surface text, i.e. <strong>real PHI</strong>. It is the reviewer's
+        whole job to see it, so it is here — but it is behind a click, not on the page by default.
+      </p>
+      <div id="rq"></div>
+    </details>
+  </div>
+
+  <div class="card" id="rehyWrap" style="display:none">
+    <h2>3 · Rehydrate an LLM response</h2>
+    <p class="note" style="margin:0 0 10px">
+      Paste anything containing placeholders. Only tokens present in <em>this</em> session's
+      mapping resolve — try inventing a <code>[NAME_PATIENT_99]</code> and watch the guard fire.
+    </p>
+    <textarea id="llmResp" style="min-height:100px"></textarea>
+    <div class="row" style="margin-top:10px">
+      <button id="rehy">Rehydrate</button>
+      <button id="drop" class="ghost">Destroy session</button>
+    </div>
+    <pre id="rehyOut" class="hide" style="margin-top:12px"></pre>
+  </div>
+</main>
+
+<script>
+const $ = id => document.getElementById(id);
+let session = null;
+
+const SAMPLE_CLEAN = `ADMISSION NOTE
+Patient:  Fitzsimmons, Clementine        MRN:  8830192
+DOB:      04/18/1949                     Account:  ACCT-559182
+Street:   4127 Alderbrook Terrace
+City:     Springfield          State: IL     ZIP: 62704
+Phone:    (217) 555-0193       Email: c.fitzsimmons@example.net
+
+Admitted 03/14/2024 for elective cholecystectomy; procedure 03/17/2024,
+discharged 03/21/2024. Tolerated the procedure well, ambulating by day 2.
+
+Attending: Dr. Rosalind Achterberg, MD    NPI 1932455684
+Facility:  Alderbrook Regional Medical Center`;
+
+const SAMPLE_HARD = `Patient: Wood, Marcus D      | MRN 77-4412-9 | DOB: 11/02/1931 | Age: 93
+Referred by: Wood Memorial Hospital
+
+Mr. Wood was evaluated by Dr. Parkinson for a tremor; Parkinson's disease was ruled out.
+M. Hodgkin, PA-C was the admitting resident. Reviewed with Bell, the charge nurse.
+Admitted 03/14/2024, to the OR 03/17/2024, discharged 03/21/2024.
+Contact: (617) 555-0148 | m.wood@example.org | 18 Saltmarsh Lane, Wexford Hollow MA 02139
+Electronically signed: Marguerite Oyelaran, MD   NPI 1932455684`;
+
+// Escape first, then wrap placeholders. Order matters: a note containing "<script>" is untrusted
+// input from a document someone uploaded, and innerHTML on it unescaped is an XSS hole.
+const esc = s => s.replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const withMarks = s => esc(s).replace(/\[[A-Z][A-Z0-9_]*\]/g, m => `<mark>${m}</mark>`);
+
+function banner(kind, html) {
+  const b = $('banner');
+  b.className = `banner show ${kind}`;
+  b.innerHTML = html;
+}
+function clearBanner() { $('banner').className = 'banner'; }
+
+async function jfetch(url, opts) {
+  const r = await fetch(url, opts);
+  const body = await r.json().catch(() => ({}));
+  if (!r.ok) throw Object.assign(new Error('http ' + r.status), {status: r.status, body});
+  return body;
+}
+
+(async function health() {
+  try {
+    const h = await jfetch('/health');
+    $('health').innerHTML = [
+      `neural: ${h.neural_enabled ? 'on' : 'off'}`,
+      `self-check: ${h.selfcheck}`,
+      `dates: ${h.date_mode}`,
+      `llm: ${h.llm_providers.length ? h.llm_providers.join(', ') : 'no key set'}`,
+      `sessions: ${h.sessions}`,
+    ].map(t => `<span class="pill">${esc(t)}</span>`).join('');
+  } catch {
+    $('health').innerHTML = '<span class="pill">server unreachable</span>';
+  }
+})();
+
+function renderStats(s) {
+  const cats = Object.entries(s.by_category || {})
+    .sort((a, b) => b[1] - a[1])
+    .map(([k, v]) => `<span class="chip">${esc(k)} <b>${v}</b></span>`).join('');
+  $('stats').innerHTML = [
+    `<span class="chip">spans <b>${s.spans}</b></span>`,
+    `<span class="chip">placeholders <b>${s.placeholders}</b></span>`,
+    `<span class="chip">detect <b>${Math.round(s.ms_detect)}ms</b></span>`,
+    `<span class="chip">self-check <b>${Math.round(s.ms_selfcheck)}ms</b></span>`,
+  ].join('') + cats;
+}
+
+function showResult(raw, res) {
+  session = res.session_id;
+  $('out').style.display = '';
+  $('rehyWrap').style.display = '';
+  $('sid').textContent = 'session ' + session.slice(0, 12);
+  $('rawOut').textContent = raw;
+  $('maskOut').innerHTML = withMarks(res.masked_text);
+  renderStats(res.summary);
+
+  if (res.blocked) {
+    banner('bad', '<strong>BLOCKED by stage G.</strong> The self-check found an identifier in '
+      + 'our own masked output, so it is not forwarded to the LLM.'
+      + '<ul>' + res.leak_findings.map(f =>
+          `<li>${esc(f.category)} — ${esc(JSON.stringify(f.text))} [${esc(f.detector)}]</li>`
+        ).join('') + '</ul>');
+  } else if (res.leak_findings.length) {
+    banner('warn', `Self-check raised ${res.leak_findings.length} finding(s), below the block `
+      + `threshold. Policy is set to warn rather than refuse for these.`);
+  } else {
+    banner('ok', 'Self-check clean — no identifier detected in the masked output.');
+  }
+  loadQueue();
+}
+
+async function loadQueue() {
+  try {
+    const q = await jfetch('/review-queue/' + session);
+    $('rqN').textContent = q.items.length;
+    $('rq').innerHTML = q.items.length
+      ? '<table><tr><th>placeholder</th><th>category</th><th>surface</th><th>score</th>'
+        + '<th>why</th></tr>' + q.items.map(i =>
+          `<tr><td class="m">${esc(i.placeholder)}</td><td>${esc(i.category)}</td>`
+          + `<td class="m">${esc(i.text)}</td><td class="m">${i.score.toFixed(2)}</td>`
+          + `<td>${esc(i.reason)}</td></tr>`).join('') + '</table>'
+      : '<p class="note">Nothing queued — every span cleared its threshold.</p>';
+  } catch { $('rq').innerHTML = '<p class="note">queue unavailable</p>'; }
+}
+
+async function busy(btn, fn) {
+  const all = [...document.querySelectorAll('button')];
+  all.forEach(b => b.disabled = true);
+  const old = btn.textContent;
+  btn.textContent = 'working…';
+  try { await fn(); }
+  finally { all.forEach(b => b.disabled = false); btn.textContent = old; }
+}
+
+$('mask').onclick = () => busy($('mask'), async () => {
+  clearBanner();
+  const f = $('file').files[0];
+  try {
+    if (f) {
+      const fd = new FormData();
+      fd.append('file', f);
+      if ($('pkey').value) fd.append('patient_key', $('pkey').value);
+      const res = await jfetch('/deidentify/file', {method: 'POST', body: fd});
+      // No raw pane for the upload path on purpose: /deidentify/file does not return the
+      // extracted text, so the browser never holds the PHI-bearing version of the document.
+      showResult(`(${f.name} — extracted and masked server-side; `
+        + `${res.summary.spans} spans found. The raw text is not returned to the browser.)`, res);
+    } else {
+      const raw = $('raw').value;
+      if (!raw.trim()) { banner('warn', 'Nothing to mask — pick a file or paste some text.'); return; }
+      const res = await jfetch('/deidentify', {
+        method: 'POST', headers: {'content-type': 'application/json'},
+        body: JSON.stringify({text: raw, patient_key: $('pkey').value || null}),
+      });
+      showResult(raw, res);
+    }
+  } catch (e) {
+    banner('bad', 'Request failed: ' + esc(JSON.stringify(e.body?.detail ?? e.message)));
+  }
+});
+
+$('trip').onclick = () => busy($('trip'), async () => {
+  clearBanner();
+  const raw = $('raw').value;
+  if (!raw.trim()) { banner('warn', 'Round trip needs pasted text.'); return; }
+  try {
+    const res = await jfetch('/roundtrip', {
+      method: 'POST', headers: {'content-type': 'application/json'},
+      body: JSON.stringify({text: raw, patient_key: $('pkey').value || null}),
+    });
+    showResult(raw, {...res, blocked: false, leak_findings: []});
+    $('llmResp').value = res.llm_response_masked;
+    $('rehyOut').className = '';
+    $('rehyOut').innerHTML = withMarks(res.llm_response_rehydrated);
+    banner('ok', `Round trip via ${esc(res.llm_provider)} / ${esc(res.llm_model)}. `
+      + `The model saw only the masked text.`);
+  } catch (e) {
+    if (e.status === 409) {
+      banner('bad', '<strong>Stage G blocked the forward.</strong> '
+        + esc(e.body.detail.error) + '<ul>' + e.body.detail.findings.map(f =>
+          `<li>${esc(f.category)} — ${esc(JSON.stringify(f.text))}</li>`).join('') + '</ul>');
+    } else if (e.status === 503) {
+      banner('warn', 'No LLM provider reachable — set GROQ_API_KEY or NVIDIA_API_KEY. '
+        + 'Masking still works; use the Mask button.');
+    } else {
+      banner('bad', 'Round trip failed: ' + esc(JSON.stringify(e.body?.detail ?? e.message)));
+    }
+  }
+});
+
+$('rehy').onclick = () => busy($('rehy'), async () => {
+  if (!session) return;
+  try {
+    const res = await jfetch('/rehydrate', {
+      method: 'POST', headers: {'content-type': 'application/json'},
+      body: JSON.stringify({session_id: session, response: $('llmResp').value}),
+    });
+    $('rehyOut').className = '';
+    $('rehyOut').innerHTML = withMarks(res.text);
+  } catch (e) {
+    banner('bad', e.status === 410
+      ? 'Session expired — the vault TTL passed. Mask again for a fresh mapping.'
+      : 'Rehydrate failed: ' + esc(JSON.stringify(e.body?.detail ?? e.message)));
+  }
+});
+
+$('drop').onclick = () => busy($('drop'), async () => {
+  if (!session) return;
+  await fetch('/session/' + session, {method: 'DELETE'});
+  banner('ok', 'Session destroyed. The mapping is gone; those placeholders can no longer be '
+    + 'resolved by anyone, including us.');
+  session = null;
+  $('rehyWrap').style.display = 'none';
+});
+
+$('sample').onclick = () => { $('raw').value = SAMPLE_CLEAN; $('file').value = ''; };
+$('sampleHard').onclick = () => { $('raw').value = SAMPLE_HARD; $('file').value = ''; };
+</script>

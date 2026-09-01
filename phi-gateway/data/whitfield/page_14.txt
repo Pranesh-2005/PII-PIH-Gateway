@@ -1,0 +1,81 @@
+WHITFIELD, MARCUS D.  |  DOB 03/14/1987  |  CLAIM PI-2024-8871                                                                      PRODUCED 01/22/2025
+
+                            NORTHSTATE NEUROLOGY & ELECTRODIAGNOSTICS
+                                               Electromyography and Nerve Conduction Laboratory
+
+                                          EMG / NERVE CONDUCTION STUDY REPORT
+
+   Patient                                   Whitfield, Marcus D. DOB 03/14/1987
+   Date of Study                             08/28/2024
+   Electromyographer                         H. Vasquez-Lund, MD
+   Referring                                 G. Halloway, MD
+
+ CLINICAL INDICATION
+ Persistent lower extremity radicular symptoms following motor vehicle collision 02/11/2024. Evaluate for lumbosacral
+ radiculopathy prior to surgical intervention.
+
+ NERVE CONDUCTION STUDIES
+   Peroneal motor, right                     Distal latency 4.4 ms, amplitude 3.8 mV, CV 44 m/s
+   Peroneal motor, left                      Distal latency 4.1 ms, amplitude 5.6 mV, CV 47 m/s
+   Tibial motor, bilateral                   Within normal limits
+   Sural sensory, bilateral                  Within normal limits, amplitudes symmetric
+   H-reflex                                  Right 31.2 ms, Left 30.8 ms - within normal limits
+
+ NEEDLE ELECTROMYOGRAPHY
+   Left tibialis anterior                    Positive sharp waves 1+, reduced recruitment
+   Left extensor hallucis longus             Fibrillations 1+, large polyphasic MUAPs
+   Left gluteus medius                       Positive sharp waves 1+
+   Left lumbar paraspinals L5                Fibrillations 1+
+   Left gastrocnemius                        Normal
+   Left vastus lateralis                     Normal
+   Right lower extremity screen              Normal insertional activity, no spontaneous activity, normal recruitment
+
+ IMPRESSION
+ 1. Electrodiagnostic evidence of a chronic LEFT L5 radiculopathy with active denervation.
+ 2. No electrodiagnostic evidence of peripheral polyneuropathy, plexopathy, or entrapment neuropathy.
+ 3. Findings should be correlated with clinical examination and imaging.
+ Electronically signed: Helena Vasquez-Lund, MD | 08/28/2024
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                LTM-PI-00014

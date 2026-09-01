@@ -1,0 +1,65 @@
+WHITFIELD, MARCUS D.  |  DOB 03/14/1987  |  CLAIM PI-2024-8871                                                                          PRODUCED 01/22/2025
+
+                                         PIEDMONT COUNTY GENERAL HOSPITAL
+                                                          Department of Emergency Medicine
+
+                                                      EMERGENCY PHYSICIAN NOTE
+
+   Patient                                     Whitfield, Marcus D. MRN PCG-4471902
+   Date of Service                             02/11/2024
+   Attending                                   S. Nakamura, MD, FACEP
+
+ CHIEF COMPLAINT
+ Neck and low back pain following motor vehicle collision.
+
+ HISTORY OF PRESENT ILLNESS
+ The patient is a 36-year-old male with no significant past medical history who presents by EMS following a motor vehicle collision
+ that occurred earlier this evening. He reports he was stopped at a traffic signal when his vehicle was struck from behind by a pickup
+ truck. He was restrained by a three-point harness. Airbags did not deploy. He denies striking his head, denies loss of consciousness,
+ and denies any period of confusion.
+ He describes immediate onset of posterior neck pain, non-radiating, rated 6/10, and low back pain rated 8/10 which radiates into the
+ right buttock and down the posterior right thigh to approximately the level of the knee. He describes an associated 'electric'
+ sensation with certain movements. He denies bowel or bladder incontinence, denies saddle anesthesia, denies fever, and denies
+ prior similar symptoms. He states he has never had back problems before and has never been treated for back pain.
+
+ PAST MEDICAL HISTORY
+ Unremarkable per patient report. No prior surgeries. No chronic medications.
+
+ ALLERGIES
+ Codeine - rash.
+
+ PHYSICAL EXAMINATION
+ General: Well-developed male, uncomfortable but in no acute distress.
+ HEENT: Normocephalic, atraumatic. No scalp hematoma. EOMI, PERRL.
+ Neck: Midline cervical tenderness at C5-C6. No step-off, no crepitus. Range of motion reduced in all planes secondary to pain and
+ guarding.
+ Chest/CV: Clear to auscultation. Regular rate and rhythm. No chest wall tenderness, no seatbelt sign.
+ Abdomen: Soft, non-distended, non-tender.
+ Back: Lumbar paraspinal muscle spasm palpable bilaterally, more pronounced on the right. Tenderness at L4-L5 and L5-S1 levels.
+ No midline step-off.
+ Neuro: Cranial nerves II-XII intact. Motor 5/5 throughout except right hip flexion and great toe extension limited to 4+/5,
+ effort-limited by pain. Sensation intact. Deep tendon reflexes 2+ and symmetric at patella and Achilles. Straight leg raise positive
+ on the right at approximately 45 degrees, negative on the left.
+
+ MEDICAL DECISION MAKING
+ Given midline cervical tenderness with a distracting injury, NEXUS criteria are not satisfied and CT cervical spine was obtained.
+ Lumbar radiographs obtained given focal tenderness and radicular complaints. Imaging reviewed independently by me and is
+ without acute traumatic finding, as detailed in the radiology reports. Neurologic examination is non-focal apart from pain-limited
+ effort. No red flag features for cauda equina.
+ Working impression is acute cervical strain and acute lumbosacral strain with right-sided radicular symptoms following motor
+ vehicle collision. Discussed conservative management, red flag return precautions, and outpatient follow-up.
+
+ DIAGNOSES
+ 1. Cervical strain, acute, initial encounter (S13.4XXA)
+ 2. Lumbosacral strain, acute, initial encounter (S33.5XXA)
+ 3. Radiculopathy, lumbar region, right (M54.41)
+ 4. Motor vehicle collision, occupant, initial encounter (V49.9XXA)
+ Electronically signed: Sara Nakamura, MD | 02/11/2024 22:31
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                     LTM-PI-00003

@@ -1,0 +1,328 @@
+{
+  "gateway": {
+    "overall": {
+      "precision": 0.8072,
+      "recall": 0.9178,
+      "f1": 0.859,
+      "leak_rate": 0.2143,
+      "uncovered_rate": 0.1429,
+      "uncovered_spans": 2,
+      "exact_boundary": 0.9254,
+      "notes": 14,
+      "p50_ms": 431.3,
+      "p95_ms": 29270.7
+    },
+    "by_source": {
+      "handauthored": {
+        "precision": 0.8072,
+        "recall": 0.9178,
+        "f1": 0.859,
+        "leak_rate": 0.2143,
+        "uncovered_rate": 0.1429,
+        "uncovered_spans": 2,
+        "exact_boundary": 0.9254,
+        "notes": 14,
+        "p50_ms": 431.3,
+        "p95_ms": 29270.7
+      }
+    },
+    "per_category": {
+      "AGE": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "DATE": {
+        "tp": 10,
+        "fp": 1,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "EMAIL": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "GEO": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 3,
+        "recall": 0.0
+      },
+      "ID": {
+        "tp": 14,
+        "fp": 6,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "IP": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "NAME": {
+        "tp": 25,
+        "fp": 8,
+        "fn": 2,
+        "recall": 0.9259
+      },
+      "ORG": {
+        "tp": 6,
+        "fp": 1,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "PHONE": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 1,
+        "recall": 0.6667
+      },
+      "URL": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "VEHICLE": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "recall": 1.0
+      }
+    },
+    "missed_surfaces": {
+      "GEO": [
+        {
+          "text": "18 saltmarsh lane",
+          "n": 1
+        },
+        {
+          "text": "wexford hollow",
+          "n": 1
+        },
+        {
+          "text": "02139",
+          "n": 1
+        }
+      ],
+      "NAME": [
+        {
+          "text": "BRIGHTWATER, DEVON",
+          "n": 1
+        },
+        {
+          "text": "Bell",
+          "n": 1
+        }
+      ],
+      "PHONE": [
+        {
+          "text": "4135550172",
+          "n": 1
+        }
+      ]
+    }
+  },
+  "regex_only": {
+    "overall": {
+      "precision": 0.9091,
+      "recall": 0.6849,
+      "f1": 0.7812,
+      "leak_rate": 0.7143,
+      "uncovered_rate": 0.7143,
+      "uncovered_spans": 22,
+      "exact_boundary": 0.92,
+      "notes": 14,
+      "p50_ms": 2.2,
+      "p95_ms": 3.3
+    },
+    "by_source": {
+      "handauthored": {
+        "precision": 0.9091,
+        "recall": 0.6849,
+        "f1": 0.7812,
+        "leak_rate": 0.7143,
+        "uncovered_rate": 0.7143,
+        "uncovered_spans": 22,
+        "exact_boundary": 0.92,
+        "notes": 14,
+        "p50_ms": 2.2,
+        "p95_ms": 3.3
+      }
+    },
+    "per_category": {
+      "AGE": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "DATE": {
+        "tp": 10,
+        "fp": 1,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "EMAIL": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "GEO": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 3,
+        "recall": 0.0
+      },
+      "ID": {
+        "tp": 14,
+        "fp": 3,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "IP": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "NAME": {
+        "tp": 10,
+        "fp": 1,
+        "fn": 17,
+        "recall": 0.3704
+      },
+      "ORG": {
+        "tp": 4,
+        "fp": 0,
+        "fn": 2,
+        "recall": 0.6667
+      },
+      "PHONE": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 1,
+        "recall": 0.6667
+      },
+      "URL": {
+        "tp": 1,
+        "fp": 0,
+        "fn": 0,
+        "recall": 1.0
+      },
+      "VEHICLE": {
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "recall": 1.0
+      }
+    },
+    "missed_surfaces": {
+      "GEO": [
+        {
+          "text": "18 saltmarsh lane",
+          "n": 1
+        },
+        {
+          "text": "wexford hollow",
+          "n": 1
+        },
+        {
+          "text": "02139",
+          "n": 1
+        }
+      ],
+      "NAME": [
+        {
+          "text": "Ronald Ashgrove",
+          "n": 1
+        },
+        {
+          "text": "Halvorsen",
+          "n": 1
+        },
+        {
+          "text": "QUINTANILLA, ROSA M",
+          "n": 1
+        },
+        {
+          "text": "BRIGHTWATER, DEVON",
+          "n": 1
+        },
+        {
+          "text": "Lenore Ashgrove",
+          "n": 1
+        },
+        {
+          "text": "Bell",
+          "n": 1
+        },
+        {
+          "text": "Odalys Kealoha",
+          "n": 1
+        },
+        {
+          "text": "farrukh tsevendorj",
+          "n": 1
+        },
+        {
+          "text": "ravindran",
+          "n": 1
+        },
+        {
+          "text": "Ilaria Baumgartner",
+          "n": 1
+        },
+        {
+          "text": "Ronnie",
+          "n": 1
+        },
+        {
+          "text": "Adeyemi, Bola",
+          "n": 1
+        },
+        {
+          "text": "Adeyemi, Femi",
+          "n": 1
+        },
+        {
+          "text": "Larrabee",
+          "n": 1
+        },
+        {
+          "text": "Bola",
+          "n": 1
+        },
+        {
+          "text": "Femi",
+          "n": 1
+        },
+        {
+          "text": "papadopoulos",
+          "n": 1
+        }
+      ],
+      "ORG": [
+        {
+          "text": "harrowgate physical therapy\ngroup",
+          "n": 1
+        },
+        {
+          "text": "Silverton Cardiology Specialists",
+          "n": 1
+        }
+      ],
+      "PHONE": [
+        {
+          "text": "4135550172",
+          "n": 1
+        }
+      ]
+    }
+  }
+}

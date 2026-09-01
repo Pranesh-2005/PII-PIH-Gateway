@@ -1,0 +1,2013 @@
+=== MASKED ===
+[NAME_PATIENT_1]  |  DOB [DATE_1]  |  CLAIM [ACCOUNT_1]                                                                        PRODUCED [DATE_2]
+
+                             [ORG_1]
+                                                     Prehospital [NAME_PATIENT_2] Report | Unit M-14 | Shift B
+
+                                                         [NAME_PATIENT_3]
+
+   Patient Name                               [NAME_PATIENT_1].
+   Date of Birth                              [DATE_1] (Age 36)
+   Sex                                        Male
+   Incident Date / Time                       [DATE_3 = DATE_2 - 346d] [DATE_4]
+   Dispatch / On-Scene / Transport            17:44 / 17:53 / 18:06
+   Receiving Facility                         [ORG_2]
+   Run Number                                 [ID_GENERIC_1]
+
+ DISPATCH INFORMATION
+ Unit dispatched Priority 2 to eastbound Route 9 near mile marker 14 for reported two-vehicle motor vehicle collision with one
+ restrained occupant complaining of neck and back pain. Law enforcement on scene prior to arrival.
+
+ SCENE FINDINGS
+ On arrival crew found a 2018 sedan with moderate rear-end deformity, rear bumper and trunk intrusion approximately 18 inches.
+ Airbags did not deploy. Patient was the restrained driver, self-extricated prior to EMS arrival, and was ambulatory at the roadside.
+ Second vehicle (pickup truck) with front-end damage; that driver refused transport.
+
+ PATIENT ASSESSMENT
+ Patient is a 36-year-old male, alert and oriented x4, GCS 15. Complains of immediate onset posterior neck pain, mid and lower
+ back pain, and a 'jolt' sensation down the right leg. Denies loss of consciousness, denies head strike, denies chest pain, denies
+ shortness of breath, denies abdominal pain. No numbness in upper extremities. Ambulatory but reports pain with weight bearing on
+ the right.
+ Airway patent. Breath sounds clear and equal bilaterally. Skin warm and dry. Pupils equal, round, reactive. Abdomen soft,
+ non-tender. Pelvis stable. No obvious deformity, no external hemorrhage. Cervical midline tenderness present at approximately
+ C5-C6 level. Lumbar paraspinal tenderness present bilaterally, greater on the right.
+
+ VITAL SIGNS
+   [GEO_STREET_1]:56                                      BP 148/88, HR 96, RR 20, SpO2 98% RA, Pain 7/10
+   [DATE_5]:12                                      BP 141/84, HR 88, RR 18, SpO2 99% RA, Pain 7/10
+
+ [NAME_PATIENT_4]
+  –   Full spinal motion restriction applied: rigid cervical collar, scoop stretcher transfer
+  –   Oxygen not required, room air maintained
+  –   IV access deferred, patient stable
+  –   Position of comfort, supine with padding
+
+ TRANSPORT
+ Transported non-emergent to [ORG_3]. No change in patient condition en route. Report given to ED
+ triage RN at 18:19. [NAME_PATIENT_2] transferred without incident.
+ Crew: [NAME_PROVIDER_1] (Lead) / [NAME_PROVIDER_2]. Report electronically signed [DATE_3 = DATE_2 - 346d] [DATE_6].
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                   [ID_GENERIC_2]
+
+[NAME_PATIENT_1]  |  DOB [DATE_1]  |  CLAIM [ACCOUNT_1]                                                                      PRODUCED [DATE_2]
+
+                                        [ORG_3]
+                                          [NAME_PATIENT_5] of [ORG_4] | [ORG_5]
+
+                                EMERGENCY [ORG_6] NURSING RECORD
+
+   Patient                                   [NAME_PATIENT_1].
+   MRN                                       [MRN_1]
+   [NAME_PATIENT_6] / Encounter                       [ID_GENERIC_3]
+   Arrival                                   [DATE_3 = DATE_2 - 346d] [DATE_5]:[DATE_7] via EMS
+   Triage Acuity                             ESI Level 3
+   Allergies                                 CODEINE (rash, documented by patient) ; NKA otherwise
+
+ TRIAGE NOTE (18:22)
+ Restrained driver rear-ended at moderate speed approximately 1 hour ago. [NAME_PATIENT_3] neck pain, low back pain radiating into the right
+ buttock and posterior thigh. Denies LOC. Arrived in c-collar per EMS. Ambulates with a slow antalgic gait. Pain rated 8/10 at
+ triage.
+
+ NURSING ASSESSMENT
+ Alert, oriented, cooperative, in no acute distress but visibly uncomfortable when repositioning. Neurovascular intact all four
+ extremities. Sensation intact to light touch. Strength [DATE_8] bilaterally in upper extremities; right lower extremity limited by pain,
+ patient able to dorsiflex and plantarflex. Capillary refill less than 2 seconds. Skin intact, no abrasions or seatbelt marks noted.
+
+ [NAME_PATIENT_7] (patient-completed)
+   Prior motor vehicle accidents?            NO
+   Prior back injury or back                 NO
+   treatment?
+   Currently working?                        YES - warehouse logistics coordinator, full duty
+   Current medications?                      None daily. Occasional ibuprofen.
+   Tobacco / Alcohol                         Never smoker. Social alcohol, 2-3 drinks per week.
+
+ VITAL SIGNS - ED COURSE
+   [DATE_5]:[DATE_9]                                     BP 144/86 HR 92 RR 18 T 98.2F SpO2 99% Pain 8/10
+   [DATE_7]:40                                     BP 136/82 HR 84 RR 16 T 98.4F SpO2 99% Pain 6/10
+   [DATE_10]:[DATE_11]                                     BP 132/78 HR 78 RR 16 T 98.1F SpO2 100% Pain 4/10
+
+ MEDICATIONS ADMINISTERED IN ED
+   [DATE_7]:05                                     Ketorolac 30 mg IV x1 - given by [NAME_PROVIDER_3]
+   [DATE_7]:05                                     Methocarbamol 1000 mg IV x1 - given by [NAME_PROVIDER_3]
+
+ NURSING DISPOSITION
+ Cervical collar removed at 21:05 per physician order following negative imaging. Patient tolerated collar removal without increase
+ in symptoms. Ambulated in hallway with steady though guarded gait. Discharge instructions reviewed, patient verbalized
+ understanding. Departed ambulatory with spouse at 21:52.
+ Electronically signed: [NAME_PROVIDER_3] | [DATE_3 = DATE_2 - 346d] [DATE_12]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                [ID_GENERIC_4]
+
+[NAME_PATIENT_1]  |  DOB [DATE_1]  |  CLAIM [ACCOUNT_1]                                                                          PRODUCED [DATE_2]
+
+                                         [ORG_3]
+                                                          [NAME_PATIENT_5] of [ORG_4]
+
+                                                      EMERGENCY PHYSICIAN NOTE
+
+   Patient                                     [NAME_PATIENT_1]
+   Date of Service                             [DATE_3 = DATE_2 - 346d]
+   Attending                                   [NAME_PROVIDER_4], FACEP
+
+ CHIEF [NAME_PATIENT_8]
+ Neck and low back pain following motor vehicle collision.
+
+ HISTORY OF PRESENT [NAME_PATIENT_9]
+ The patient is a 36-year-old male with no significant past medical history who presents by EMS following a motor vehicle collision
+ that occurred earlier this evening. He reports he was stopped at a traffic signal when his vehicle was struck from behind by a pickup
+ truck. He was restrained by a three-point harness. Airbags did not deploy. He denies striking his head, denies loss of consciousness,
+ and denies any period of confusion.
+ He describes immediate onset of posterior neck pain, non-radiating, rated 6/10, and low back pain rated 8/10 which radiates into the
+ right buttock and down the posterior right thigh to approximately the level of the knee. He describes an associated 'electric'
+ sensation with certain movements. He denies bowel or bladder incontinence, denies saddle anesthesia, denies fever, and denies
+ prior similar symptoms. He states he has never had back problems before and has never been treated for back pain.
+
+ PAST [NAME_PATIENT_10] HISTORY
+ Unremarkable per patient report. No prior surgeries. No chronic medications.
+
+ ALLERGIES
+ Codeine - rash.
+
+ PHYSICAL EXAMINATION
+ General: Well-developed male, uncomfortable but in no acute distress.
+ HEENT: Normocephalic, atraumatic. No scalp hematoma. [NAME_PATIENT_11], [NAME_PATIENT_12].
+ Neck: Midline cervical tenderness at C5-C6. No step-off, no crepitus. Range of motion reduced in all planes secondary to pain and
+ guarding.
+ Chest/CV: Clear to auscultation. Regular rate and rhythm. No chest wall tenderness, no seatbelt sign.
+ Abdomen: Soft, non-distended, non-tender.
+ Back: Lumbar paraspinal muscle spasm palpable bilaterally, more pronounced on the right. Tenderness at L4-L5 and L5-S1 levels.
+ No midline step-off.
+ Neuro: Cranial nerves II-XII intact. Motor [DATE_8] throughout except right hip flexion and great toe extension limited to 4+/5,
+ effort-limited by pain. Sensation intact. Deep tendon reflexes 2+ and symmetric at patella and Achilles. Straight leg raise positive
+ on the right at approximately 45 degrees, negative on the left.
+
+ [NAME_PATIENT_10] [NAME_PATIENT_13] MAKING
+ Given midline cervical tenderness with a distracting injury, NEXUS criteria are not satisfied and CT cervical spine was obtained.
+ Lumbar radiographs obtained given focal tenderness and radicular complaints. Imaging reviewed independently by me and is
+ without acute traumatic finding, as detailed in the radiology reports. Neurologic examination is non-focal apart from pain-limited
+ effort. No red flag features for cauda equina.
+ Working impression is acute cervical strain and acute lumbosacral strain with right-sided radicular symptoms following motor
+ vehicle collision. Discussed conservative management, red flag return precautions, and outpatient follow-up.
+
+ DIAGNOSES
+ 1. Cervical strain, acute, initial encounter (S13.4XXA)
+ 2. Lumbosacral strain, acute, initial encounter (S33.5XXA)
+ 3. Radiculopathy, lumbar region, right (M54.41)
+ 4. Motor vehicle collision, occupant, initial encounter (V49.9XXA)
+ Electronically signed: [NAME_PROVIDER_4] | [DATE_3 = DATE_2 - 346d] [DATE_13]
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                     [ID_GENERIC_5]
+
+[NAME_PATIENT_1]  |  DOB [DATE_1]  |  CLAIM [ACCOUNT_1]                                                                       PRODUCED [DATE_2]
+
+                                        [ORG_3]
+                                                                [NAME_PATIENT_5] of Radiology
+
+                                                    [NAME_PATIENT_14] [ORG_7] [NAME_PATIENT_3]
+
+   Patient                                    [NAME_PATIENT_1]
+   Date of Service                            [DATE_3 = DATE_2 - 346d]
+
+ EXAM 1: [ORG_8]
+ Accession: [ID_GENERIC_6] | Performed 19:48 | CPT 72125
+ INDICATION: Motor vehicle collision with midline cervical tenderness.
+ [NAME_PATIENT_15]: Helical axial images obtained from the skull base through T1 with sagittal and coronal reformations. No intravenous
+ contrast.
+ FINDINGS: Vertebral body heights are maintained. Alignment is anatomic with preservation of the anterior and posterior vertebral
+ lines. No acute fracture is identified. Facet joints are congruent bilaterally. Mild disc space narrowing at C5-C6 with small anterior
+ osteophyte formation, degenerative in nature. Prevertebral soft tissues are within normal limits. Visualized lung apices are clear.
+ IMPRESSION:
+ 1. No acute fracture or traumatic malalignment of the cervical spine.
+ 2. Mild degenerative disc disease at C5-C6, chronic.
+ Reported by: [NAME_PROVIDER_5] | Signed [DATE_3 = DATE_2 - 346d] [DATE_14]
+
+ EXAM 2: [NAME_PATIENT_16], 3 VIEWS
+ Accession: [ID_GENERIC_7] | Performed [DATE_15]:[DATE_16] | CPT 72100
+ INDICATION: Low back pain following motor vehicle collision.
+ [NAME_PATIENT_15]: AP, lateral, and spot lateral views of the lumbar spine.
+ FINDINGS: Five non-rib-bearing lumbar vertebrae. Vertebral body heights preserved without compression deformity. No
+ spondylolisthesis on the lateral view. Mild disc space narrowing at L4-L5 with endplate sclerosis. Facet arthropathy at L4-L5 and
+ L5-S1, mild to moderate. Sacroiliac joints unremarkable. No acute fracture.
+ IMPRESSION:
+ 1. No acute fracture or listhesis.
+ 2. Degenerative disc disease and facet arthropathy at L4-L5 and L5-S1. These findings are chronic and of longstanding duration.
+ 3. Clinical correlation recommended. MRI may be considered if radicular symptoms persist.
+ Reported by: [NAME_PROVIDER_5] | Signed [DATE_3 = DATE_2 - 346d] [DATE_17]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                  [ID_GENERIC_8]
+
+[NAME_PATIENT_1]  |  DOB [DATE_1]  |  CLAIM [ACCOUNT_1]                                                                       PRODUCED [DATE_2]
+
+                                        [ORG_3]
+                                                         [NAME_PATIENT_5] of [ORG_4]
+
+                                   ED DISCHARGE SUMMARY & PRESCRIPTION RECORD
+
+   Patient                                    [NAME_PATIENT_1]
+   Discharge Date / Time                      [DATE_18]
+   Disposition                                Home, ambulatory, accompanied by spouse
+   Condition at Discharge                     Stable, improved
+
+ DISCHARGE DIAGNOSES
+ Acute cervical strain; acute lumbosacral strain; right lumbar radiculopathy; motor vehicle collision.
+
+ PRESCRIPTIONS ISSUED
+   1                                          Naproxen 500 mg PO BID with food, #30, no refills
+   2                                          Methocarbamol 750 mg PO TID PRN muscle spasm, #30, no refills
+   3                                          Acetaminophen with Codeine 300/30 mg, 1 tab PO q6h PRN severe pain, #12, no
+                                              refills
+
+ DISCHARGE INSTRUCTIONS
+  –   Apply ice to the neck and low back for 20 minutes every 2-3 hours for the first 48 hours, then may transition to heat.
+  –   Remain as active as tolerated. Avoid bed rest beyond 1-2 days. Avoid lifting greater than 10 pounds for one week.
+  –   Work status: OFF WORK [DATE_19 = DATE_2 - 345d] through [DATE_20 = DATE_2 - 341d]. May return to light duty [DATE_21 = DATE_2 - 338d] with no lifting over 15 pounds.
+  –   Follow up with primary care physician within 5-7 days.
+  –   Follow up with orthopedic spine specialist if radicular symptoms persist beyond two weeks.
+
+ RETURN PRECAUTIONS - RETURN IMMEDIATELY IF
+  –   Weakness in the legs, difficulty walking, or worsening numbness
+  –   [NAME_PATIENT_17] of bowel or bladder control, or numbness in the groin or inner thighs
+  –   Fever, chills, or unrelenting night pain
+  –   Severe headache, vomiting, confusion, or visual change
+ Patient and spouse verbalized understanding of all instructions, prescriptions, and return precautions. All questions answered.
+ Written materials provided.
+ Electronically signed: [NAME_PROVIDER_4] | [DATE_3 = DATE_2 - 346d] [DATE_10]:[DATE_22]
+ Co-signed: [NAME_PROVIDER_3] | [DATE_3 = DATE_2 - 346d] [DATE_12]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                 [ID_GENERIC_9]
+
+[NAME_PATIENT_1]  |  DOB [DATE_1]  |  CLAIM [ACCOUNT_1]                                                                             PRODUCED [DATE_2]
+
+                                      [ORG_9]
+                                       [NAME_PATIENT_1] [NAME_PATIENT_1] - Established Patient | [GEO_STREET_2], Suite 210
+
+                                                   [NAME_PATIENT_18] VISIT NOTE - [ORG_10]
+
+   Patient                                      [NAME_PATIENT_1]
+   Date of Service                              [DATE_21 = DATE_2 - 338d]
+   Provider                                     [NAME_PROVIDER_6]
+   Visit Type                                   [NAME_PATIENT_19], post motor vehicle collision
+
+  SUBJECTIVE
+  Patient returns 8 days after a rear-end motor vehicle collision on [DATE_3 = DATE_2 - 346d] for which he was evaluated in the emergency
+  department. He reports neck pain has improved from 6/10 to roughly 3/10 and is now intermittent. Low back pain persists at 6-7/10
+  and is worse in the morning and after prolonged sitting. Right leg pain continues into the posterior thigh and now extends
+  intermittently to the lateral calf. He reports occasional tingling in the right foot, particularly the top of the foot.
+  He took the acetaminophen-codeine tablets for two days and stopped, reporting an itchy rash across the chest and forearms which
+  resolved after discontinuation. He continues naproxen with partial benefit. He has not returned to work; he states his employer will
+  not accommodate the light duty restriction at present.
+  Of note, the patient reports on further questioning that he was involved in a prior rear-end collision in 2021 and had 'a few weeks of
+  back trouble' at that time which resolved without formal treatment. He also recalls being seen at an urgent care for back pain 'a few
+  years ago' but does not recall details.
+
+  OBJECTIVE
+  Vitals: BP 128/80, HR 76, T 98.3F, Wt 194 lb, Ht 5'10", BMI 27.8
+  General: Well appearing, moves stiffly from seated to standing.
+  Neck: Mild paraspinal tenderness, full range of motion with end-range discomfort. Spurling maneuver negative bilaterally.
+  Back: Lumbar flexion limited to approximately 50 degrees by pain. Paraspinal spasm right greater than left. Tenderness over the
+  right L5-S1 facet region.
+  Neuro: Strength [DATE_8] except right extensor hallucis longus 4/5. Sensation decreased to light touch over the right L5 dermatome.
+  Patellar reflexes 2+ bilaterally, Achilles 2+ on the left and 1+ on the right. Straight leg raise positive right at 40 degrees. Crossed
+  straight leg raise negative.
+
+  ASSESSMENT
+  1. Lumbar radiculopathy, right, likely L5 distribution, persistent and not improving at 8 days post-injury.
+  2. Cervical strain, improving.
+  3. Adverse drug reaction to codeine - documented allergy, patient was nonetheless prescribed a codeine-containing analgesic at
+  discharge. Reaction reviewed with patient; codeine added prominently to the chart allergy list.
+
+  PLAN
+   –  Discontinue acetaminophen-codeine. Do not re-prescribe any codeine-containing product.
+   –  Continue naproxen 500 mg BID with food. Add gabapentin 300 mg at bedtime, titrate as tolerated.
+   –  Referral to physical therapy, 2 visits per week for 6 weeks.
+   –  Referral to orthopedic spine surgery, Dr. [NAME_PROVIDER_7].
+   –  MRI lumbar spine without contrast ordered given persistent radicular deficit.
+   –  Work note provided: off work through [DATE_23 = DATE_2 - 324d], reassess.
+  Electronically signed: [NAME_PROVIDER_6] | [DATE_21 = DATE_2 - 338d] 16:12
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                        [ID_GENERIC_10]
+
+[NAME_PATIENT_1]  |  DOB [DATE_1]  |  CLAIM [ACCOUNT_1]                                                                         PRODUCED [DATE_2]
+
+                                  [NAME_PATIENT_20] [ORG_11] THERAPY
+                                                      Outpatient Physical Therapy | [ORG_12] 3
+
+                                             [NAME_PATIENT_21]
+
+   Patient                                    [NAME_PATIENT_1]
+   DOB                                        [DATE_1]
+   Date of [NAME_PATIENT_21]                         [DATE_24 = DATE_2 - 331d]
+   Referring Provider                         [NAME_PROVIDER_6]
+   Date of Injury                             [DATE_25 = DATE_2 - 340d]
+   Therapist                                  [NAME_PROVIDER_8], DPT
+
+ REFERRAL [NAME_PATIENT_22]
+ Lumbar radiculopathy, right; cervical strain. Frequency [ID_GENERIC_11] for 6 weeks.
+
+ SUBJECTIVE
+ Patient reports constant low back pain averaging 6/10 with peaks to 8/10, radiating into the right buttock, posterior thigh, and lateral
+ calf. Aggravating factors include sitting greater than 20 minutes, forward bending, and rising from a chair. Easing factors include
+ lying supine with knees flexed and walking short distances. Sleep is disrupted, waking 2-3 times nightly. He denies bowel or
+ bladder change.
+ Patient states he has not worked since the collision. Prior level of function: full duty warehouse work including lifting up to 50
+ pounds, recreational basketball twice weekly.
+
+ OBJECTIVE FINDINGS
+   Posture                                    Flattened lumbar lordosis, right lateral shift
+   Gait                                       Antalgic, decreased right stance time, decreased step length
+   [NAME_PATIENT_23]                                Flexion 45% of normal, Extension 30%, R sidebend 50%, L sidebend 70%
+   Palpation                                  Hypertonicity right lumbar multifidus and quadratus lumborum
+   MMT R hip flexion                          4/5 (L [DATE_8])
+   MMT R great toe extension                  4/5 (L [DATE_8])
+   MMT R ankle dorsiflexion                   4+/5 (L [DATE_8])
+   Sensation                                  Diminished light touch right L5 dermatome
+   SLR                                        Positive right at 40 deg; negative left
+   Slump test                                 Positive right
+
+ OUTCOME MEASURES
+ Oswestry Disability Index: 48% (severe disability). Numeric Pain Rating: 6/10 current, 8/10 worst, 4/10 best.
+
+ ASSESSMENT
+ Patient presents with signs and symptoms consistent with right L5 radiculopathy with associated lumbar segmental dysfunction,
+ myofascial guarding, and significant functional limitation. Directional preference for extension noted during examination. Good
+ rehabilitation potential; prognosis fair to good pending MRI findings.
+
+ [NAME_PATIENT_2] / GOALS (6 weeks)
+  –   Reduce worst pain from 8/10 to 4/10
+  –   Improve ODI from 48% to below 25%
+  –   Restore lumbar flexion to 80% of normal
+  –   Tolerate 45 minutes seated without symptom escalation
+  –   Return to modified duty work
+ Interventions: manual therapy, directional preference exercise, neural mobilization, core stabilization progression, postural
+ education, modalities as indicated.
+ Electronically signed: [NAME_PROVIDER_8], DPT | [DATE_24 = DATE_2 - 331d]
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                   [ID_GENERIC_12]
+
+[NAME_PATIENT_1]  |  DOB [DATE_1]  |  CLAIM [ACCOUNT_1]                                                                          PRODUCED [DATE_2]
+
+                                                    [ORG_13]
+                                                    [ORG_14] | 1.5T MRI Suite
+
+                                              MRI [NAME_PATIENT_24] CONTRAST
+
+   Patient                                     [NAME_PATIENT_1].
+   DOB                                         [DATE_1]
+   Date of Exam                                [DATE_26 = DATE_2 - 322d]
+   Accession                                   [ID_GENERIC_13] CPT [MRN_2]
+   Referring                                   [NAME_PROVIDER_6]
+
+ CLINICAL HISTORY
+ 36-year-old male, motor vehicle collision [DATE_3 = DATE_2 - 346d]. Persistent right lower extremity radicular pain with L5 sensory deficit and
+ mild weakness. Evaluate for disc herniation.
+
+ [NAME_PATIENT_15]
+ Multiplanar, multisequence imaging of the lumbar spine performed without intravenous contrast. Sagittal T1, sagittal T2, sagittal
+ STIR, and axial T2 sequences obtained from T12 through S1.
+
+ COMPARISON
+ Lumbar radiographs dated [DATE_3 = DATE_2 - 346d]. No prior cross-sectional imaging available for comparison at this institution.
+
+ FINDINGS
+ Alignment: Normal lumbar alignment. No spondylolisthesis.
+ [NAME_PATIENT_25]: Vertebral body heights and marrow signal are normal. No marrow edema on STIR to suggest acute osseous injury. No
+ compression deformity.
+ Conus medullaris terminates at the L1 level and is normal in signal.
+ T12-L1 through L3-L4: No significant disc bulge, herniation, or stenosis. Facets unremarkable.
+ L4-L5: Moderate disc desiccation with loss of disc height. Broad-based disc bulge with a superimposed RIGHT PARACENTRAL
+ [NAME_PATIENT_26] measuring approximately 6 mm in AP dimension, extending into the right lateral recess. There is contact
+ with and mild posterior displacement of the traversing right L5 nerve root. Mild bilateral facet hypertrophy and ligamentum flavum
+ thickening. Resulting mild to moderate right lateral recess stenosis. Central canal is patent. Neural foramina mildly narrowed on the
+ right.
+ L5-S1: [NAME_PATIENT_26] desiccation with mild loss of height. Small central disc bulge without focal herniation. Moderate bilateral facet
+ arthropathy with periarticular sclerosis. No significant stenosis. Neural foramina patent bilaterally.
+ Paraspinal soft tissues: Unremarkable. No hematoma or edema.
+
+ IMPRESSION
+ 1. L4-L5 right paracentral disc protrusion measuring 6 mm with contact and mild displacement of the traversing right L5 nerve root
+ and mild to moderate right lateral recess stenosis. This finding correlates with the reported right L5 radicular symptoms.
+ 2. Multilevel degenerative disc disease at L4-L5 and L5-S1 with facet arthropathy. [NAME_PATIENT_26] desiccation and facet changes are chronic
+ and predate the reported injury; the superimposed focal protrusion cannot be dated by imaging alone.
+ 3. No acute fracture, marrow edema, or ligamentous injury.
+ Reported by: [NAME_PROVIDER_5] | Electronically signed [DATE_26 = DATE_2 - 322d] 15:03
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                    [ID_GENERIC_14]
+
+[NAME_PATIENT_1]  |  DOB [DATE_1]  |  CLAIM [ACCOUNT_1]                                                                          PRODUCED [DATE_2]
+
+                                       [ORG_15] [ORG_16]
+                                                     Spine Surgery and Non-Operative [NAME_PATIENT_16] [NAME_PATIENT_2]
+
+                                                  [NAME_PATIENT_16]
+
+   Patient                                     [NAME_PATIENT_1]
+   Date of Service                             [DATE_27 = DATE_2 - 314d]
+   Provider                                    [NAME_PROVIDER_7], Orthopedic Spine Surgery
+   Referral Source                             [NAME_PROVIDER_6]
+
+ HISTORY
+ This is a 36-year-old right-hand-dominant male warehouse logistics coordinator referred for evaluation of persistent right lower
+ extremity radicular pain following a rear-end motor vehicle collision on [DATE_3 = DATE_2 - 346d]. He was evaluated in the emergency
+ department on the date of injury with negative radiographs. Symptoms have persisted for five weeks despite naproxen, gabapentin,
+ methocarbamol, and six sessions of physical therapy.
+ He describes low back pain of 5/10 and right leg pain of 7/10, the leg pain now dominant. Pain radiates from the right buttock
+ through the posterolateral thigh and calf into the dorsum of the right foot. He reports numbness over the dorsum of the right foot
+ and a sense that the right foot 'catches' when he is tired. He denies left leg symptoms, denies bowel or bladder dysfunction, and
+ denies saddle anesthesia.
+ He remains off work. He rates his function as markedly limited and reports inability to sit through a full meal or drive more than 20
+ minutes.
+
+ REVIEW OF PRIOR RECORDS
+ I have personally reviewed the ED records of [DATE_3 = DATE_2 - 346d], the lumbar radiographs of the same date, and the MRI lumbar spine of
+ [DATE_26 = DATE_2 - 322d]. I have also reviewed the cervical spine MRI dated [DATE_28] which demonstrates no significant cord compression.
+ Physical therapy notes reviewed.
+
+ EXAMINATION
+ Gait antalgic on the right. Heel walking on the right is weak; toe walking intact. Lumbar flexion to 50 degrees, extension to 15
+ degrees with reproduction of leg pain.
+ Motor: Right EHL 4/5. Right tibialis anterior 4+/5. Right gastrocnemius [DATE_8]. Left lower extremity [DATE_8] throughout. Hip abduction
+ symmetric.
+ Sensory: Diminished pinprick right L5 dermatome, dorsum of foot and lateral calf.
+ Reflexes: Patellar 2+ bilaterally. Achilles 2+ left, 1+ right.
+ Provocative: Right straight leg raise positive at 35 degrees reproducing leg pain. Contralateral SLR negative. FABER negative
+ bilaterally. No hip joint pain with internal rotation.
+
+ ASSESSMENT
+ Right L5 radiculopathy secondary to an L4-L5 right paracentral disc protrusion, symptomatic and correlating with imaging.
+ Underlying multilevel degenerative disc disease is present and is chronic; in my opinion the acute focal protrusion and the onset of
+ radicular symptoms are temporally related to the collision of [DATE_3 = DATE_2 - 346d], in a spine with pre-existing degenerative change that was
+ asymptomatic prior to the event.
+
+ PLAN
+ 1. Continue physical therapy, extend authorization by 4 weeks.
+ 2. Referral to interventional pain management for right L5 transforaminal epidural steroid injection.
+ 3. Continue gabapentin, titrate to 300 mg TID.
+ 4. Repeat evaluation in 6 weeks. If radicular pain and EHL weakness persist despite injection, would discuss right L4-L5
+ microdiscectomy.
+ 5. Work status: remains off work.
+ Electronically signed: [NAME_PROVIDER_7] | [DATE_27 = DATE_2 - 314d]
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                     [ID_GENERIC_15]
+
+[NAME_PATIENT_1]  |  DOB [DATE_1]  |  CLAIM [ACCOUNT_1]                                                                       PRODUCED [DATE_2]
+
+                                 [NAME_PATIENT_20] [ORG_17]
+                                                Outpatient Physical Therapy | Daily [NAME_PATIENT_4] Notes
+
+                                               PHYSICAL THERAPY PROGRESS NOTE
+
+   Patient                                    [NAME_PATIENT_1]
+   Date of Service                            [DATE_29 = DATE_2 - 288d]
+   Visit Number                               14 of 24 authorized
+   Therapist                                  [NAME_PROVIDER_8], DPT
+
+ SUBJECTIVE
+ Patient reports back pain improved to 4/10 but states right leg pain is unchanged at 7/10 and remains the dominant complaint. He
+ reports the leg pain worsens after the treadmill portion of the session. He continues to report numbness on the dorsum of the right
+ foot. [NAME_PATIENT_3] he has been approved for an injection and is awaiting scheduling.
+
+ OBJECTIVE
+   Lumbar flexion                             65% of normal (from 45% at eval)
+   Lumbar extension                           60% of normal (from 30% at eval)
+   SLR right                                  Positive at 45 degrees (from 40 degrees)
+   MMT R great toe extension                  4/5, unchanged
+   Oswestry Disability Index                  38% (from 48%)
+
+ [NAME_PATIENT_4] PROVIDED
+  –   Therapeutic exercise 30 min: prone press-up progression, quadruped stabilization, standing hip hinge with dowel
+  –   Manual therapy 15 min: grade III central PA mobilization L3-L5, soft tissue mobilization right QL and multifidus
+  –   Neuromuscular re-education 15 min: gait training with cue for symmetric stance time
+  –   Modalities: moist heat 10 min prior to manual therapy
+
+ ASSESSMENT
+ Patient demonstrating measurable improvement in lumbar mobility and axial pain with corresponding ODI improvement of 10
+ points. However, radicular symptoms and L5 motor deficit are unchanged at 14 visits, suggesting therapy alone is unlikely to
+ resolve the nerve root involvement. Findings communicated to referring provider.
+
+ PLAN
+ Continue current plan of care. Reduce treadmill duration. Recommend patient proceed with scheduled injection. Reassess at visit
+ 18.
+ Electronically signed: [NAME_PROVIDER_8] | [DATE_29 = DATE_2 - 288d] 11:42
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                  [ID_GENERIC_16]
+
+[NAME_PATIENT_1]  |  DOB [DATE_1]  |  CLAIM [ACCOUNT_1]                                                                         PRODUCED [DATE_2]
+
+                                         [NAME_PATIENT_16]
+                                                 Ambulatory Procedure Suite | Fluoroscopy Room 2
+
+                     PROCEDURE NOTE - [NAME_PATIENT_27] [ORG_18] [NAME_PATIENT_28]
+
+   Patient                                    [NAME_PATIENT_1]
+   Date of Procedure                          [DATE_30 = DATE_2 - 274d]
+   Proceduralist                              [NAME_PROVIDER_9]
+   Pre-procedure [NAME_PATIENT_22]                    Right L5 radiculopathy, L4-L5 disc protrusion
+   Post-procedure [NAME_PATIENT_22]                   Same
+   Procedure                                  Right L5-S1 transforaminal epidural steroid injection under fluoroscopic guidance (CPT
+                                              64483)
+   Anesthesia                                 Local, 1% lidocaine. No sedation.
+   Complications                              None
+
+ INDICATION
+ Patient with imaging-confirmed right paracentral L4-L5 disc protrusion and clinically corroborated right L5 radiculopathy,
+ refractory to eight weeks of oral medication and fourteen sessions of physical therapy. Risks, benefits, and alternatives including
+ continued conservative care and surgical decompression were discussed. Written informed consent obtained.
+
+ [NAME_PATIENT_15]
+ Patient placed prone on the fluoroscopy table with a bolster beneath the abdomen. The lumbosacral region was prepped with
+ chlorhexidine and draped in sterile fashion. Under intermittent fluoroscopic guidance the target foramen was identified and the
+ C-arm obliqued to visualize the 'Scotty dog' view. Skin and subcutaneous tissue infiltrated with 1% lidocaine.
+ A 22-gauge spinal needle was advanced under intermittent fluoroscopy to the safe triangle beneath the pedicle. Position confirmed
+ on AP and lateral views. Negative aspiration for blood and cerebrospinal fluid. Omnipaque 180 contrast, 1 mL, injected
+ demonstrating appropriate epidural and perineural spread along the nerve root without vascular uptake.
+ A solution of dexamethasone 10 mg with 1 mL of 0.25% bupivacaine was then injected slowly. The patient tolerated the injection
+ well and reported his typical radicular pain reproduced on contrast injection, then relieved.
+
+ POST-PROCEDURE
+ Patient monitored in recovery for 30 minutes. Motor and sensory function intact bilaterally. Ambulated without difficulty.
+ Discharged home in stable condition with a responsible adult driver.
+ Pre-procedure pain 7/10. Immediate post-procedure pain 2/10 (anesthetic phase).
+
+ PLAN
+  –   Pain diary for 14 days.
+  –   Resume physical therapy in 3 days.
+  –   Follow up in 3 weeks. May consider a second injection if partial but incomplete relief.
+  –   Return to Dr. [NAME_PROVIDER_7] if relief is inadequate to discuss surgical options.
+ Electronically signed: [NAME_PROVIDER_9] | [DATE_30 = DATE_2 - 274d] [DATE_31]:35
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                   [ID_GENERIC_17]
+
+[NAME_PATIENT_1]  |  DOB [DATE_1]  |  CLAIM [ACCOUNT_1]                                                                   PRODUCED [DATE_2]
+
+                                [NAME_PATIENT_20] [ORG_17]
+                                              Outpatient Physical Therapy | Daily [NAME_PATIENT_4] Notes
+
+                                              PHYSICAL THERAPY PROGRESS NOTE
+
+   Patient                                  [NAME_PATIENT_1]
+   Date of Service                          [DATE_29 = DATE_2 - 288d]
+   Visit Number                             14 of 24 authorized
+   Therapist                                [NAME_PROVIDER_10]
+
+ SUBJECTIVE
+ Patient reports back pain 4/10 and right leg pain 5/10, improved. States he is tolerating sitting better and was able to drive 30
+ minutes without stopping. Denies new numbness.
+
+ OBJECTIVE
+   Lumbar flexion                           65% of normal
+   SLR right                                Negative
+   MMT R great toe extension                [DATE_8]
+   Oswestry Disability Index                38%
+
+ [NAME_PATIENT_4] PROVIDED
+  –   Therapeutic exercise 30 min
+  –   Manual therapy 15 min
+  –   Neuromuscular re-education 15 min
+
+ ASSESSMENT
+ Patient progressing well toward goals. Radicular symptoms resolving.
+
+ PLAN
+ Continue plan of care. Reassess at visit 18. Consider discharge planning.
+ NOTE NOT ELECTRONICALLY SIGNED. Draft status at time of records production.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                             [ID_GENERIC_18]
+
+[NAME_PATIENT_1]  |  DOB [DATE_1]  |  CLAIM [ACCOUNT_1]                                                                         PRODUCED [DATE_2]
+
+                                       [ORG_15] [ORG_19] [ORG_20]
+                                             [ORG_21] - Transcribed from Scanned Chart
+
+                        [NAME_PATIENT_16] [NAME_PATIENT_19] (SCANNED / PARTIALLY ILLEGIBLE)
+
+   Patient                                    [NAME_PATIENT_1].
+   Date of Service                            [DATE_32 = DATE_2 - 246d]
+   Provider                                   [NAME_PROVIDER_7]
+
+ TRANSCRIPTION OF HANDWRITTEN NOTE
+ "Pt 4 wks s/p R [NAME_PATIENT_29]. [NAME_PATIENT_3] [illegible] relief x 10 days then return of leg sx. Currently leg 6/10, back 4/10. Numbness dorsum R
+ foot persists."
+ "Exam: gait antalgic R. EHL 4/5 R [illegible]. SLR + R at 35. Achilles 1+ R, 2+ L. No [illegible] change L side."
+ "A: R L5 radic, L4-5 HNP, failed conservative care incl PT x [illegible] visits, [NAME_PATIENT_29] x1, meds."
+ "P: Discussed R L4-5 microdiscectomy. Risks incl bleeding, infection, dural tear, recurrent HNP, [illegible], no guarantee of relief.
+ Pt wishes to proceed. Pre-op labs + [illegible] clearance. Sched OR."
+ "Work status: remains off work. Recheck post-op."
+ Signature illegible. Date stamp on scanned page: [DATE_32 = DATE_2 - 246d]. Transcribed by records department [DATE_33 = DATE_2 - 222d].
+
+ RECORDS [NAME_PATIENT_5] ANNOTATION
+ The original of this page was produced as a photocopy of a handwritten chart note of poor quality. Portions could not be read with
+ confidence and are marked [illegible]. A request for a legible or typed duplicate was submitted to the provider on [DATE_33 = DATE_2 - 222d]. No
+ response received as of the date of this production.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                    [ID_GENERIC_19]
+
+[NAME_PATIENT_1]  |  DOB [DATE_1]  |  CLAIM [ACCOUNT_1]                                                                      PRODUCED [DATE_2]
+
+                            [ORG_22]
+                                               Electromyography and [ORG_23]
+
+                                          EMG / [NAME_PATIENT_3]
+
+   Patient                                   [NAME_PATIENT_1]
+   Date of [NAME_PATIENT_3]                             [DATE_34 = DATE_2 - 147d]
+   Electromyographer                         [NAME_PROVIDER_11]
+   Referring                                 [NAME_PROVIDER_7]
+
+ CLINICAL INDICATION
+ Persistent lower extremity radicular symptoms following motor vehicle collision [DATE_3 = DATE_2 - 346d]. Evaluate for lumbosacral
+ radiculopathy prior to surgical intervention.
+
+ [NAME_PATIENT_3] STUDIES
+   Peroneal motor, right                     Distal latency 4.4 ms, amplitude 3.8 mV, CV 44 m/s
+   Peroneal motor, left                      Distal latency 4.1 ms, amplitude 5.6 mV, CV 47 m/s
+   Tibial motor, bilateral                   Within normal limits
+   Sural sensory, bilateral                  Within normal limits, amplitudes symmetric
+   H-reflex                                  Right 31.2 ms, Left 30.8 ms - within normal limits
+
+ NEEDLE ELECTROMYOGRAPHY
+   Left tibialis anterior                    Positive sharp waves 1+, reduced recruitment
+   Left extensor hallucis longus             Fibrillations 1+, large polyphasic MUAPs
+   Left gluteus medius                       Positive sharp waves 1+
+   Left lumbar paraspinals L5                Fibrillations 1+
+   Left gastrocnemius                        Normal
+   Left vastus lateralis                     Normal
+   Right lower extremity screen              Normal insertional activity, no spontaneous activity, normal recruitment
+
+ IMPRESSION
+ 1. Electrodiagnostic evidence of a chronic LEFT L5 radiculopathy with active denervation.
+ 2. No electrodiagnostic evidence of peripheral polyneuropathy, plexopathy, or entrapment neuropathy.
+ 3. Findings should be correlated with clinical examination and imaging.
+ Electronically signed: [NAME_PROVIDER_11] | [DATE_34 = DATE_2 - 147d]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                [ID_GENERIC_20]
+
+[NAME_PATIENT_1]  |  DOB [DATE_1]  |  CLAIM [ACCOUNT_1]                                                                        PRODUCED [DATE_2]
+
+                                         [ORG_3]
+                                                      [NAME_PATIENT_5] of Surgery | Operating Room 6
+
+                                                              OPERATIVE REPORT
+
+   Patient                                    [NAME_PATIENT_1]
+   Date of Surgery                            [DATE_35 = DATE_2 - 134d]
+   Surgeon                                    [NAME_PROVIDER_7]
+   Assistant                                  [NAME_PROVIDER_12]
+   Anesthesia                                 General endotracheal, administered by [NAME_PROVIDER_13]
+   Estimated Blood [NAME_PATIENT_17]                       25 mL
+   Specimens                                  [NAME_PATIENT_26] material, sent to pathology
+   Complications                              None
+
+ PREOPERATIVE [NAME_PATIENT_22]
+ Right L4-L5 herniated nucleus pulposus with right L5 radiculopathy, failed conservative management.
+
+ POSTOPERATIVE [NAME_PATIENT_22]
+ Same, confirmed intraoperatively.
+
+ PROCEDURE PERFORMED
+ Right L4-L5 hemilaminotomy with microdiscectomy and decompression of the right L5 nerve root (CPT 63030).
+
+ INDICATIONS
+ The patient is a 37-year-old male with a right L4-L5 disc protrusion causing right L5 radiculopathy with motor deficit, which has
+ failed a course of physical therapy, oral neuropathic and anti-inflammatory medication, and one transforaminal epidural steroid
+ injection. Symptoms have persisted for approximately seven months. Risks, benefits, and alternatives were reviewed and informed
+ consent obtained.
+
+ DESCRIPTION OF PROCEDURE
+ The patient was brought to the operating room and general anesthesia was induced without difficulty. He was turned prone onto a
+ Wilson frame with all pressure points padded. A surgical time-out was performed confirming patient identity, procedure, and
+ correct operative level and laterality.
+ The lumbar region was prepped and draped in the usual sterile fashion. A localizing radiograph confirmed the L4-L5 interspace. A
+ midline incision was made and carried through subcutaneous tissue. Subperiosteal dissection was carried out on the right side
+ exposing the L4 lamina and L4-L5 interlaminar space. A retractor was placed and a repeat radiograph confirmed the level.
+ Using the operating microscope, a hemilaminotomy of the inferior margin of the right L4 lamina was performed with a high-speed
+ burr and Kerrison rongeurs. The ligamentum flavum was incised and removed. The thecal sac and traversing right L5 nerve root
+ were identified. The nerve root was noted to be tented and erythematous over a firm extruded disc fragment in the right lateral
+ recess.
+ The nerve root was gently retracted medially. The fragment was delivered with a pituitary rongeur and additional loose
+ degenerative nucleus pulposus was removed from the disc space. The lateral recess and foramen were then probed and found to be
+ widely decompressed. The nerve root was noted to be freely mobile.
+ Hemostasis was obtained with bipolar cautery and thrombin-soaked Gelfoam. The wound was irrigated with antibiotic solution.
+ The fascia was closed with 0-Vicryl, subcutaneous tissue with 2-0 Vicryl, and skin with a running subcuticular 4-0 Monocryl. A
+ sterile dressing was applied. All counts were correct. The patient was awakened, extubated, and transferred to the post-anesthesia
+ care unit in stable condition.
+ Electronically signed: [NAME_PROVIDER_7] | [DATE_35 = DATE_2 - 134d] [DATE_36]:[DATE_37]
+
+ ADDENDUM
+ Pathology returned as degenerative fibrocartilage consistent with intervertebral disc material. No malignancy.
+ Addendum not signed. No date recorded.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                   [ID_GENERIC_21]
+
+[NAME_PATIENT_1]  |  DOB [DATE_1]  |  CLAIM [ACCOUNT_1]                                                                    PRODUCED [DATE_2]
+
+                                [NAME_PATIENT_20] [ORG_17]
+                                                            Outpatient Physical Therapy
+
+                                          PHYSICAL THERAPY DISCHARGE SUMMARY
+
+   Patient                                   [NAME_PATIENT_1]
+   DOB                                       [DATE_38]
+   MRN                                       [MRN_3]
+   Date of Discharge                         [DATE_39 = DATE_2 - 267d]
+   Referring Provider                        [NAME_PROVIDER_14]
+   Body Region Treated                       LEFT SHOULDER - rotator cuff repair, post-operative
+
+ [NAME_PATIENT_30]
+ Status post left rotator cuff repair [DATE_40 = DATE_2 - 370d]. Post-operative rehabilitation protocol, phase III.
+
+ DISCHARGE STATUS
+   Left shoulder flexion                     165 degrees (from 90 at initial evaluation)
+   Left shoulder abduction                   160 degrees
+   Left external rotation                    70 degrees
+   MMT supraspinatus                         4+/5
+   DASH score                                18% (from 62%)
+   Pain                                      1/10 at rest, 3/10 with overhead activity
+
+ GOALS STATUS
+  –   Return to overhead reaching without pain: MET
+  –   Lift 20 lb to shoulder height: MET
+  –   Sleep on affected side: PARTIALLY MET
+  –   Return to recreational golf: NOT MET, deferred to home program
+
+ ASSESSMENT
+ Patient has met the majority of stated goals and has plateaued with skilled intervention. Independent with home exercise program
+ and demonstrated correct technique on all prescribed exercises.
+
+ PLAN
+ Discharge from skilled physical therapy. Continue home exercise program 4x weekly. Follow up with Dr. [NAME_PATIENT_31] as scheduled
+ [DATE_41 = DATE_2 - 253d].
+ Electronically signed: [NAME_PROVIDER_15] | [DATE_39 = DATE_2 - 267d]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                               [ID_GENERIC_22]
+
+[NAME_PATIENT_1]  |  DOB [DATE_1]  |  CLAIM [ACCOUNT_1]                                                                          PRODUCED [DATE_2]
+
+                                       [ORG_24]
+                                                                 Post-Operative [NAME_PATIENT_19]
+
+                                     POST-OPERATIVE [NAME_PATIENT_18] VISIT NOTES (TWO VISITS)
+
+ VISIT 1 - [DATE_42 = DATE_2 - 120d] (two weeks post-operative)
+   Provider                                    [NAME_PROVIDER_12]
+ Patient returns two weeks following right L4-L5 microdiscectomy. He reports immediate and near-complete resolution of the right
+ leg pain upon waking from surgery. Current leg pain 1/10, incisional back pain 3/10. Numbness on the dorsum of the right foot has
+ improved but is not fully resolved.
+ Examination: Incision clean, dry, intact, well-approximated without erythema or drainage. Sutures absorbable, no removal required.
+ Motor: right EHL now 4+/5, improved from 4/5. Right ankle dorsiflexion [DATE_8]. Sensation improved over the right L5 dermatome,
+ diminished but present. SLR negative bilaterally. Gait non-antalgic.
+ Assessment: Excellent early post-operative course following right L4-L5 microdiscectomy. Motor improvement documented.
+ Plan: Begin post-operative physical therapy at 4 weeks. No lifting over 10 pounds, no bending or twisting for 6 weeks. Remains off
+ work. Return in 6 weeks.
+ Electronically signed: [NAME_PROVIDER_12] | [DATE_42 = DATE_2 - 120d]
+
+ VISIT 2 - [DATE_43 = DATE_2 - 78d] (eight weeks post-operative)
+   Provider                                    [NAME_PROVIDER_7]
+ Patient is now eight weeks following right L4-L5 microdiscectomy. He reports right leg pain is essentially resolved, rated 0-1/10
+ and present only after prolonged standing. Low back pain 2-3/10, activity related. Residual patchy numbness over the dorsum of the
+ right foot which he describes as no longer bothersome. He has completed eight post-operative physical therapy sessions.
+ Examination: Well-healed incision. Motor [DATE_8] throughout including right EHL. Sensation mildly diminished right L5 dermatome.
+ SLR negative. Lumbar flexion 85% of normal. Gait normal. Able to heel and toe walk.
+ Assessment: Excellent outcome following right L4-L5 microdiscectomy with resolution of radicular pain and recovery of motor
+ strength. Residual mild sensory deficit, which may or may not fully resolve.
+ Plan: Release to modified duty effective [DATE_44 = DATE_2 - 72d] with a 25 pound lifting restriction for 8 weeks, then reassess for full duty.
+ Complete remaining physical therapy. Continue home exercise program. Return in 3 months or as needed. Anticipate maximum
+ medical improvement at approximately 6 months post-operative.
+ Electronically signed: [NAME_PROVIDER_7] | [DATE_43 = DATE_2 - 78d]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                     [ID_GENERIC_23]
+
+[NAME_PATIENT_1]  |  DOB [DATE_1]  |  CLAIM [ACCOUNT_1]                                                                     PRODUCED [DATE_2]
+
+                                              [ORG_25] - EAST
+                                      PRIOR RECORDS OBTAINED BY SUBPOENA | Produced [DATE_45]
+
+                                     [ORG_26] [NAME_PATIENT_2] (HISTORICAL RECORD)
+
+   Patient                                   [NAME_PATIENT_1]
+   Date of Service                           [DATE_46]
+   Provider                                  [NAME_PROVIDER_16]
+
+ CHIEF [NAME_PATIENT_8]
+ Low back pain x 3 weeks.
+
+ HISTORY
+ 32-year-old male presents with a three-week history of low back pain that began after moving furniture. Pain is described as an
+ ache across the lower back, 5/10, worse with bending and prolonged standing. He reports intermittent radiation into the right
+ buttock but denies pain below the knee. Denies numbness, weakness, bowel or bladder change, fever, or weight loss. Has tried
+ over-the-counter ibuprofen with partial relief.
+
+ EXAMINATION
+ Lumbar paraspinal tenderness bilaterally. Flexion mildly limited by pain. Straight leg raise negative bilaterally. Strength [DATE_8]
+ throughout. Sensation intact. Reflexes symmetric. Gait normal.
+
+ ASSESSMENT
+ Mechanical low back pain, subacute, with non-radicular right buttock referral. No red flags.
+
+ PLAN
+  –   Naproxen 500 mg BID x 10 days
+  –   Cyclobenzaprine 5 mg at bedtime PRN
+  –   Home exercise handout provided
+  –   Activity modification, avoid heavy lifting x 2 weeks
+  –   Follow up with primary care if not improved in 3 weeks or if new radiating pain, numbness, or weakness develops
+ Electronically signed: [NAME_PROVIDER_16] | [DATE_46]
+
+ ATTACHED: RADIOLOGY REPORT
+ LUMBAR [NAME_PATIENT_16] [NAME_PATIENT_16], 2 VIEWS - [DATE_46]
+ FINDINGS: Vertebral body heights preserved. Mild disc space narrowing at L4-L5. Early facet arthropathy at L4-L5 and L5-S1.
+ No fracture or listhesis.
+ IMPRESSION: Early degenerative disc disease and facet arthropathy at L4-L5 and L5-S1. No acute finding.
+ Reported by: [NAME_PROVIDER_17] | [DATE_46]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                [ID_GENERIC_24]
+
+[NAME_PATIENT_1]  |  DOB [DATE_1]  |  CLAIM [ACCOUNT_1]                                                                       PRODUCED [DATE_2]
+
+                                       [ORG_27] [ORG_28]
+                                            Patient Medication History Printout | Generated [DATE_47 = DATE_2 - 51d]
+
+                                                   [NAME_PATIENT_32] DISPENSING RECORD
+
+   Patient                                    [NAME_PATIENT_1]
+   Allergies on File                          NONE DOCUMENTED
+   Insurance                                  [HEALTH_PLAN_ID_1]
+
+ DISPENSING HISTORY
+   [DATE_3 = DATE_2 - 346d]                                 Naproxen 500 mg tab, qty 30, Rx by [NAME_PROVIDER_4], filled 22:40
+   [DATE_3 = DATE_2 - 346d]                                 Methocarbamol 750 mg tab, qty 30, Rx by [NAME_PROVIDER_4] S MD, filled 22:40
+   [DATE_3 = DATE_2 - 346d]                                 Acetaminophen/Codeine 300-30 mg tab, qty 12, Rx by [NAME_PROVIDER_4] S MD, filled 22:41
+   [DATE_21 = DATE_2 - 338d]                                 Gabapentin 300 mg cap, qty 30, Rx by [NAME_PROVIDER_6]
+   [DATE_48 = DATE_2 - 310d]                                 Gabapentin 300 mg cap, qty 90, Rx by [NAME_PROVIDER_6], titration to TID
+   [DATE_48 = DATE_2 - 310d]                                 Naproxen 500 mg tab, qty 60, refill, Rx by [NAME_PROVIDER_6]
+   [DATE_30 = DATE_2 - 274d]                                 Ondansetron 4 mg ODT, qty 10, Rx by [NAME_PROVIDER_9]
+   [DATE_49 = DATE_2 - 233d]                                 Gabapentin 300 mg cap, qty 90, refill
+   [DATE_35 = DATE_2 - 134d]                                 Oxycodone/Acetaminophen 5-325 mg tab, qty 20, Rx by [NAME_PROVIDER_7] G MD,
+                                              post-operative
+   [DATE_35 = DATE_2 - 134d]                                 Docusate sodium 100 mg cap, qty 30, Rx by [NAME_PROVIDER_7]
+   [DATE_35 = DATE_2 - 134d]                                 Methocarbamol 750 mg tab, qty 40, Rx by [NAME_PROVIDER_7]
+   [DATE_50 = DATE_2 - 122d]                                 Oxycodone/Acetaminophen 5-325 mg tab, qty 12, refill x1, Rx by [NAME_PROVIDER_7]
+   [DATE_51 = DATE_2 - 86d]                                 Gabapentin 300 mg cap, qty 90, refill
+
+ PHARMACIST NOTES
+ [DATE_3 = DATE_2 - 346d] - Counseled on drowsiness with methocarbamol and codeine combination. Advised no driving.
+ [DATE_35 = DATE_2 - 134d] - Opioid counseling provided. Naloxone offered and declined. PDMP reviewed, no concerning findings.
+ This printout reflects prescriptions filled at [ORG_29] locations only and may not represent a complete medication history.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                  [ID_GENERIC_25]
+
+[NAME_PATIENT_1]  |  DOB [DATE_1]  |  CLAIM [ACCOUNT_1]                                                                         PRODUCED [DATE_2]
+
+                       [ORG_30] - [ORG_31]
+                                                Itemized Statement of Charges | Claim [ACCOUNT_1]
+
+                                                       ITEMIZED BILLING SUMMARY
+
+   Patient                                    [NAME_PATIENT_1]
+   Statement Period                           [DATE_3 = DATE_2 - 346d] through [DATE_52 = DATE_2 - 53d]
+   Statement Generated                        [DATE_53 = DATE_2 - 44d]
+
+ ITEMIZED CHARGES
+   [DATE_3 = DATE_2 - 346d]                         EMS ground transport, ALS-1 (A0427)                                                               $1,480.00
+   [DATE_3 = DATE_2 - 346d]                         ED visit, level 4 (99284)                                                                         $2,310.00
+   [DATE_3 = DATE_2 - 346d]                         CT cervical spine w/o contrast (72125)                                                            $1,875.00
+   [DATE_3 = DATE_2 - 346d]                         [NAME_PATIENT_16] lumbar spine 3 views (72100)                                                           $ 410.00
+   [DATE_3 = DATE_2 - 346d]                         Pharmacy, ED administered                                                                          $ 186.00
+   [DATE_21 = DATE_2 - 338d]                         [NAME_PATIENT_18] visit, established, level 3 (99213)                                                         $ 245.00
+   [DATE_24 = DATE_2 - 331d]                         PT initial evaluation, moderate complexity (97162)                                                 $ 310.00
+   [DATE_26 = DATE_2 - 322d]                         MRI lumbar spine w/o contrast ([MRN_2])                                                             $3,240.00
+   [DATE_54 = DATE_2 - 316d]                         MRI cervical spine w/o contrast (72141)                                                           $3,180.00
+   [DATE_27 = DATE_2 - 314d]                         Consultation, spine surgery (99244)                                                                $ 595.00
+   [DATE_55]-[DATE_56 = DATE_2 - 260d]                   Physical therapy, 22 visits, bundled                                                              $4,840.00
+   [DATE_30 = DATE_2 - 274d]                         [NAME_PATIENT_29] lumbar, single level (64483)                                                                $2,650.00
+   [DATE_30 = DATE_2 - 274d]                         Fluoroscopic guidance (77003)                                                                      $ 420.00
+   [DATE_57 = DATE_2 - 225d]                         [NAME_PATIENT_29] lumbar, single level (64483)                                                                $2,650.00
+   [DATE_34 = DATE_2 - 147d]                         [NAME_PATIENT_33], lower extremity (95886, 95908)                                                           $1,290.00
+   [DATE_35 = DATE_2 - 134d]                         Laminotomy w/ discectomy, 1 interspace (63030)                                                    $8,950.00
+   [DATE_35 = DATE_2 - 134d]                         Anesthesia, spine surgery                                                                         $[DATE_58],720.00
+   [DATE_35 = DATE_2 - 134d]                         Facility, ambulatory surgery                                                                      $6,400.00
+   [DATE_42 = DATE_2 - 120d]                         Post-op visit, global period                                                                          $ 0.00
+   [DATE_59]                            Post-operative physical therapy, 8 visits                                                         $1,760.00
+   [DATE_43 = DATE_2 - 78d]                         [NAME_PATIENT_18] visit, established, level 3 (99213)                                                         $ 245.00
+
+ SUMMARY
+   Total Charges                              $44,756.00
+   Insurance Payments                         $18,204.36
+   Adjustments / Contractual                  $14,988.14
+   Write-offs
+   Patient Responsibility                     $11,563.50
+   Outstanding Balance                        $11,563.50
+
+ Charges reflect the master charge description master rate and may not reflect negotiated rates. Lien filed with [ORG_32]
+ [DATE_53 = DATE_2 - 44d].
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                   [ID_GENERIC_26]
+
+[NAME_PATIENT_1]  |  DOB [DATE_1]  |  CLAIM [ACCOUNT_1]                                                                     PRODUCED [DATE_2]
+
+                                 [ORG_33] HUMAN RESOURCES
+                                                      Occupational Health & Work Status File
+
+                                       EMPLOYER WORK STATUS AND WAGE RECORD
+
+   Employee                                  [NAME_PATIENT_1]
+   Employee ID                               [ID_GENERIC_27]
+   Position                                  [PROFESSION_1]
+   Date of Hire                              [DATE_60]
+   Rate of Pay                               $28.40 per hour, 40 hours regular plus average 6 hours overtime weekly
+
+ WORK STATUS CHRONOLOGY
+   [DATE_19 = DATE_2 - 345d]                                Off work per ED note dated [DATE_3 = DATE_2 - 346d]
+   [DATE_21 = DATE_2 - 338d]                                Light duty offered by employer; declined as unavailable in role
+   [DATE_21 = DATE_2 - 338d]                                Off work through [DATE_23 = DATE_2 - 324d] per Dr. [NAME_PROVIDER_18][NAME_PROVIDER_19]
+   [DATE_27 = DATE_2 - 314d]                                Remains off work per Dr[NAME_PATIENT_34]
+   [DATE_32 = DATE_2 - 246d]                                Remains off work per Dr[NAME_PATIENT_34]
+   [DATE_35 = DATE_2 - 134d]                                Surgical leave commences
+   [DATE_43 = DATE_2 - 78d]                                Released to modified duty effective [DATE_44 = DATE_2 - 72d], 25 lb restriction
+   [DATE_44 = DATE_2 - 72d]                                Returned to work, modified duty, 32 hours per week
+   [DATE_61 = DATE_2 - 16d]                                Returned to full duty per employer records
+
+ WAGE [NAME_PATIENT_17] CALCULATION (employer-provided)
+   Total days off work                       [DATE_19 = DATE_2 - 345d] through [DATE_62 = DATE_2 - 73d]
+   Regular hours lost                        Approximately 1,560 hours
+   Overtime hours lost                       Approximately 234 hours
+   Partial wage loss, modified duty          [DATE_44 = DATE_2 - 72d] through [DATE_63 = DATE_2 - 17d], 8 hours per week reduction
+   period
+
+ HR ANNOTATION
+ Employee was in good standing at the time of leave with no active disciplinary matters. Short-term disability benefits were paid at
+ 60% of base wage from [DATE_24 = DATE_2 - 331d] through [DATE_64 = DATE_2 - 149d], the maximum benefit period. No benefits were payable thereafter.
+ Employee used 42 hours of accrued paid time off prior to short-term disability commencement.
+ Prepared by: [NAME_PROVIDER_20] | [DATE_65 = DATE_2 - 8d]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                [ID_GENERIC_28]
+
+[NAME_PATIENT_1]  |  DOB [DATE_1]  |  CLAIM [ACCOUNT_1]                                                                      PRODUCED [DATE_2]
+
+                                          [NAME_PATIENT_18] RECORDS [NAME_PROVIDER_21]
+                                                           [NAME_PATIENT_35] and [NAME_PATIENT_36] Log
+
+                                             RECORDS [NAME_PATIENT_35]
+
+   Matter                                    [ORG_34]
+   Claim Number                              [ACCOUNT_1]
+   Records Requested By                      Requesting Party (records request dated [DATE_66 = DATE_2 - 35d])
+   Date of [NAME_PATIENT_35]                        [DATE_2]
+   Total Pages Produced                      22
+
+ [NAME_PATIENT_35]
+ The undersigned certifies that the accompanying documents are true and correct copies of records maintained in the ordinary course
+ of business, produced in response to the request referenced above, and that the records were made at or near the time of the events
+ described by persons with knowledge, or from information transmitted by such persons.
+
+ [NAME_PATIENT_35] LOG - SOURCES
+   [ORG_35]                       1 page
+   [ORG_36]                   3 pages
+   Hospital - ED
+   [ORG_36]                   1 page
+   Hospital - Radiology
+   [ORG_36]                   1 page
+   Hospital - Surgery
+   [ORG_37]                 1 page
+   [ORG_38]          4 pages
+   Therapy
+   [ORG_13]                   1 page
+   [NAME_PATIENT_34] [NAME_PATIENT_16] [NAME_PATIENT_16]                 3 pages
+   Institute
+   [ORG_39] &              1 page
+   Spine
+   [ORG_40] &                    1 page
+   Electrodiagnostics
+   [NAME_PATIENT_2]                     1 page
+   (historical, subpoenaed)
+   [ORG_27] [ORG_41]              1 page
+   [ORG_42] [ORG_43] -                  1 page
+   Financial Services
+   [ORG_44] - HR                1 page
+   This certification                        1 page
+
+ ITEMS REQUESTED BUT NOT PRODUCED
+  –   MRI cervical spine, referenced in orthopedic consultation of [DATE_27 = DATE_2 - 314d] and billed [DATE_54 = DATE_2 - 316d]. Report not located in the
+     requested file. [NAME_PATIENT_19] request pending.
+  –   Legible duplicate of the handwritten orthopedic note of [DATE_32 = DATE_2 - 246d]. Requested [DATE_33 = DATE_2 - 222d], no response received.
+  –   Clinical documentation corresponding to the transforaminal epidural steroid injection billed on [DATE_57 = DATE_2 - 225d]. Not located.
+  –   Physical therapy daily notes for visits 15 through 22. Not located in this production.
+ Certified by: [NAME_PROVIDER_21] | [DATE_2]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SYNTHETIC TRAINING RECORD - FICTIONAL PATIENT, PROVIDERS AND FACILITIES - FOR INTERVIEW ASSESSMENT USE ONLY                                [ID_GENERIC_29]
+
+=== MAPPING ===
+  [DATE_1]                   DATE            03/14/1987
+  [DATE_2]                   DATE            01/22/2025
+  [DATE_3 = DATE_2 - 346d]   DATE            02/11/2024
+  [DATE_4]                   DATE            17:42
+  [DATE_5]                   DATE            18
+  [DATE_6]                   DATE            19:40
+  [DATE_7]                   DATE            19
+  [DATE_8]                   DATE            5/5
+  [DATE_9]                   DATE            25
+  [DATE_10]                  DATE            21
+  [DATE_11]                  DATE            15
+  [DATE_12]                  DATE            21:58
+  [DATE_13]                  DATE            22:31
+  [DATE_14]                  DATE            20:22
+  [DATE_15]                  DATE            20
+  [DATE_16]                  DATE            05
+  [DATE_17]                  DATE            20:44
+  [DATE_18]                  DATE            02/11/2024 21:52
+  [DATE_19 = DATE_2 - 345d]  DATE            02/12/2024
+  [DATE_20 = DATE_2 - 341d]  DATE            02/16/2024
+  [DATE_21 = DATE_2 - 338d]  DATE            02/19/2024
+  [DATE_22]                  DATE            55
+  [DATE_23 = DATE_2 - 324d]  DATE            03/04/2024
+  [DATE_24 = DATE_2 - 331d]  DATE            02/26/2024
+  [DATE_25 = DATE_2 - 340d]  DATE            17/02/2024
+  [DATE_26 = DATE_2 - 322d]  DATE            03/06/2024
+  [DATE_27 = DATE_2 - 314d]  DATE            03/14/2024
+  [DATE_28]                  DATE            03/2024
+  [DATE_29 = DATE_2 - 288d]  DATE            04/09/2024
+  [DATE_30 = DATE_2 - 274d]  DATE            04/23/2024
+  [DATE_31]                  DATE            14
+  [DATE_32 = DATE_2 - 246d]  DATE            05/21/2024
+  [DATE_33 = DATE_2 - 222d]  DATE            06/14/2024
+  [DATE_34 = DATE_2 - 147d]  DATE            08/28/2024
+  [DATE_35 = DATE_2 - 134d]  DATE            09/10/2024
+  [DATE_36]                  DATE            13
+  [DATE_37]                  DATE            48
+  [DATE_38]                  DATE            09/22/1979
+  [DATE_39 = DATE_2 - 267d]  DATE            04/30/2024
+  [DATE_40 = DATE_2 - 370d]  DATE            01/18/2024
+  [DATE_41 = DATE_2 - 253d]  DATE            05/14/2024
+  [DATE_42 = DATE_2 - 120d]  DATE            09/24/2024
+  [DATE_43 = DATE_2 - 78d]   DATE            11/05/2024
+  [DATE_44 = DATE_2 - 72d]   DATE            11/11/2024
+  [DATE_45]                  DATE            06/2024
+  [DATE_46]                  DATE            08/17/2019
+  [DATE_47 = DATE_2 - 51d]   DATE            12/02/2024
+  [DATE_48 = DATE_2 - 310d]  DATE            03/18/2024
+  [DATE_49 = DATE_2 - 233d]  DATE            06/03/2024
+  [DATE_50 = DATE_2 - 122d]  DATE            09/22/2024
+  [DATE_51 = DATE_2 - 86d]   DATE            10/28/2024
+  [DATE_52 = DATE_2 - 53d]   DATE            11/30/2024
+  [DATE_53 = DATE_2 - 44d]   DATE            12/09/2024
+  [DATE_54 = DATE_2 - 316d]  DATE            03/12/2024
+  [DATE_55]                  DATE            02/26
+  [DATE_56 = DATE_2 - 260d]  DATE            05/07/2024
+  [DATE_57 = DATE_2 - 225d]  DATE            06/11/2024
+  [DATE_58]                  DATE            1
+  [DATE_59]                  DATE            10/2024
+  [DATE_60]                  DATE            06/02/2019
+  [DATE_61 = DATE_2 - 16d]   DATE            01/06/2025
+  [DATE_62 = DATE_2 - 73d]   DATE            11/10/2024
+  [DATE_63 = DATE_2 - 17d]   DATE            01/05/2025
+  [DATE_64 = DATE_2 - 149d]  DATE            08/26/2024
+  [DATE_65 = DATE_2 - 8d]    DATE            01/14/2025
+  [DATE_66 = DATE_2 - 35d]   DATE            12/18/2024
+  [NAME_PATIENT_1]           NAME_PATIENT    WHITFIELD, MARCUS D., Whitfield, Marcus D, Whitfield, Marcus D. MRN PCG-4471902, Marcus (+8 more)
+  [ACCOUNT_1]                ACCOUNT         PI-2024-8871
+  [ORG_1]                    ORG             PIEDMONT COUNTY EMERGENCY MEDICAL SERVICES
+  [NAME_PATIENT_2]           NAME_PATIENT    Care, PLAN OF CARE, CARE VISIT NOTE, Riverbend Urgent Care
+  [NAME_PATIENT_3]           NAME_PATIENT    AMBULANCE RUN REPORT, Reports, REPORTS, NERVE CONDUCTION STUDY REPORT (+2 more)
+  [ORG_2]                    ORG             Piedmont County General Hospital, ED
+  [ID_GENERIC_1]             ID_GENERIC      EMS-2024-03318
+  [GEO_STREET_1]             GEO_STREET      17
+  [NAME_PATIENT_4]           NAME_PATIENT    TREATMENT RENDERED, Treatment, TREATMENT
+  [ORG_3]                    ORG             Piedmont County General Hospital, PIEDMONT COUNTY GENERAL HOSPITAL
+  [NAME_PROVIDER_1]          NAME_PROVIDER   J. Okafor, NRP
+  [NAME_PROVIDER_2]          NAME_PROVIDER   T. Bianchi, EMT-B
+  [ID_GENERIC_2]             ID_GENERIC      LTM-PI-00001
+  [NAME_PATIENT_5]           NAME_PATIENT    Department, DEPARTMENT
+  [ORG_4]                    ORG             Emergency Medicine
+  [ORG_5]                    ORG             4100 Wellstone Parkway
+  [ORG_6]                    ORG             DEPARTMENT TRIAGE &
+  [MRN_1]                    MRN             PCG-4471902
+  [NAME_PATIENT_6]           NAME_PATIENT    Account
+  [ID_GENERIC_3]             ID_GENERIC      ED-24-0211-556
+  [NAME_PATIENT_7]           NAME_PATIENT    INTAKE QUESTIONNAIRE
+  [NAME_PROVIDER_3]          NAME_PROVIDER   R. Delacroix, RN
+  [ID_GENERIC_4]             ID_GENERIC      LTM-PI-00002
+  [NAME_PROVIDER_4]          NAME_PROVIDER   S. Nakamura, MD, Sara Nakamura, MD, Nakamura S MD, Nakamura
+  [NAME_PATIENT_8]           NAME_PATIENT    COMPLAINT
+  [NAME_PATIENT_9]           NAME_PATIENT    ILLNESS
+  [NAME_PATIENT_10]          NAME_PATIENT    MEDICAL
+  [NAME_PATIENT_11]          NAME_PATIENT    EOMI
+  [NAME_PATIENT_12]          NAME_PATIENT    PERRL
+  [NAME_PATIENT_13]          NAME_PATIENT    DECISION
+  [ID_GENERIC_5]             ID_GENERIC      LTM-PI-00003
+  [NAME_PATIENT_14]          NAME_PATIENT    DIAGNOSTIC
+  [ORG_7]                    ORG             IMAGING
+  [ORG_8]                    ORG             CT CERVICAL SPINE WITHOUT CONTRAST
+  [ID_GENERIC_6]             ID_GENERIC      CT-24-118844
+  [NAME_PATIENT_15]          NAME_PATIENT    TECHNIQUE
+  [NAME_PROVIDER_5]          NAME_PROVIDER   A. Ramachandran, MD, Anand Ramchandran, MD
+  [NAME_PATIENT_16]          NAME_PATIENT    RADIOGRAPHS LUMBAR SPINE, Spine, ORTHOPEDIC SPINE CONSULTATION, SUMMIT INTERVENTIONAL PAIN & SPINE (+5 more)
+  [ID_GENERIC_7]             ID_GENERIC      XR-24-118851
+  [ID_GENERIC_8]             ID_GENERIC      LTM-PI-00004
+  [NAME_PATIENT_17]          NAME_PATIENT    Loss, LOSS
+  [ID_GENERIC_9]             ID_GENERIC      LTM-PI-00005
+  [ORG_9]                    ORG             NORTHGATE FAMILY MEDICINE ASSOCIATES
+  [GEO_STREET_2]             GEO_STREET      812 Rosewood Ave
+  [NAME_PATIENT_18]          NAME_PATIENT    OFFICE, Office, OFFICE OF THE
+  [ORG_10]                   ORG             PRIMARY CARE
+  [NAME_PROVIDER_6]          NAME_PROVIDER   L. Osei-Bonsu, MD, Lydia Osei-Bonsu, MD, Osei-Bonsu L MD
+  [NAME_PATIENT_19]          NAME_PATIENT    Follow-up, FOLLOW-UP VISIT, Follow-Up
+  [NAME_PROVIDER_7]          NAME_PROVIDER   Halloway, G. Halloway, MD, Gregory Halloway, MD, Halloway G MD
+  [ID_GENERIC_10]            ID_GENERIC      LTM-PI-00006
+  [NAME_PATIENT_20]          NAME_PATIENT    MERIDIAN REHABILITATION
+  [ORG_11]                   ORG             & SPORTS
+  [ORG_12]                   ORG             Clinic Site
+  [NAME_PATIENT_21]          NAME_PATIENT    PHYSICAL THERAPY INITIAL EVALUATION, Evaluation
+  [NAME_PROVIDER_8]          NAME_PROVIDER   K. Petrosyan, PT, Karine Petrosyan, PT, Karine Petrosyan, PT, DPT
+  [NAME_PATIENT_22]          NAME_PATIENT    DIAGNOSIS, Diagnosis
+  [ID_GENERIC_11]            ID_GENERIC      2x/week
+  [NAME_PATIENT_23]          NAME_PATIENT    Lumbar AROM
+  [ID_GENERIC_12]            ID_GENERIC      LTM-PI-00007
+  [ORG_13]                   ORG             VALLEY IMAGING PARTNERS, Valley Imaging Partners
+  [ORG_14]                   ORG             Advanced Diagnostic Imaging
+  [NAME_PATIENT_24]          NAME_PATIENT    LUMBAR SPINE WITHOUT
+  [ID_GENERIC_13]            ID_GENERIC      MR-24-20719
+  [MRN_2]                    MRN             72148
+  [NAME_PATIENT_25]          NAME_PATIENT    Vertebrae
+  [NAME_PATIENT_26]          NAME_PATIENT    DISC PROTRUSION, Disc
+  [ID_GENERIC_14]            ID_GENERIC      LTM-PI-00008
+  [ORG_15]                   ORG             HALLOWAY
+  [ORG_16]                   ORG             ORTHOPEDIC SPINE INSTITUTE
+  [ID_GENERIC_15]            ID_GENERIC      LTM-PI-00009
+  [ORG_17]                   ORG             & SPORTS THERAPY
+  [ID_GENERIC_16]            ID_GENERIC      LTM-PI-00010
+  [NAME_PATIENT_27]          NAME_PATIENT    TRANSFORAMINAL
+  [ORG_18]                   ORG             EPIDURAL
+  [NAME_PATIENT_28]          NAME_PATIENT    STEROID INJECTION
+  [NAME_PROVIDER_9]          NAME_PROVIDER   D. Farhadi, MD, Darius Farhadi, MD, Farhadi D MD
+  [ID_GENERIC_17]            ID_GENERIC      LTM-PI-00011
+  [NAME_PROVIDER_10]         NAME_PROVIDER   (not signed)
+  [ID_GENERIC_18]            ID_GENERIC      LTM-PI-00012
+  [ORG_19]                   ORG             ORTHOPEDIC SPINE
+  [ORG_20]                   ORG             INSTITUTE
+  [ORG_21]                   ORG             Handwritten Clinic Note
+  [NAME_PATIENT_29]          NAME_PATIENT    TFESI
+  [ID_GENERIC_19]            ID_GENERIC      LTM-PI-00013
+  [ORG_22]                   ORG             NORTHSTATE NEUROLOGY & ELECTRODIAGNOSTICS
+  [ORG_23]                   ORG             Nerve Conduction Laboratory
+  [NAME_PROVIDER_11]         NAME_PROVIDER   H. Vasquez-Lund, MD, Helena Vasquez-Lund, MD
+  [ID_GENERIC_20]            ID_GENERIC      LTM-PI-00014
+  [NAME_PROVIDER_12]         NAME_PROVIDER   R. Nkemdirim, PA-C, Rita Nkemdirim, PA-C
+  [NAME_PROVIDER_13]         NAME_PROVIDER   V. Sokolova, MD
+  [ID_GENERIC_21]            ID_GENERIC      LTM-PI-00015
+  [MRN_3]                    MRN             MER-778213
+  [NAME_PROVIDER_14]         NAME_PROVIDER   B. Castellanos, MD
+  [NAME_PATIENT_30]          NAME_PATIENT    REASON FOR REFERRAL
+  [NAME_PATIENT_31]          NAME_PATIENT    Castellanos
+  [NAME_PROVIDER_15]         NAME_PROVIDER   J. Mwangi, PT
+  [ID_GENERIC_22]            ID_GENERIC      LTM-PI-00016
+  [ORG_24]                   ORG             HALLOWAY ORTHOPEDIC SPINE INSTITUTE
+  [ID_GENERIC_23]            ID_GENERIC      LTM-PI-00017
+  [ORG_25]                   ORG             RIVERBEND URGENT CARE
+  [ORG_26]                   ORG             URGENT
+  [NAME_PROVIDER_16]         NAME_PROVIDER   P. Lindqvist, PA-C
+  [NAME_PROVIDER_17]         NAME_PROVIDER   M. Iverson, MD
+  [ID_GENERIC_24]            ID_GENERIC      LTM-PI-00018
+  [ORG_27]                   ORG             GREENLEAF, Greenleaf
+  [ORG_28]                   ORG             COMMUNITY PHARMACY #218
+  [NAME_PATIENT_32]          NAME_PATIENT    PHARMACY
+  [HEALTH_PLAN_ID_1]         HEALTH_PLAN_ID  Meridian Health Plan, Member 88-2210-447
+  [ORG_29]                   ORG             Greenleaf Community Pharmacy
+  [ID_GENERIC_25]            ID_GENERIC      LTM-PI-00019
+  [ORG_30]                   ORG             MERIDIAN HEALTH SYSTEM
+  [ORG_31]                   ORG             PATIENT FINANCIAL SERVICES
+  [NAME_PATIENT_33]          NAME_PATIENT    EMG/NCS
+  [ORG_32]                   ORG             Meridian Health System Recovery Unit
+  [ID_GENERIC_26]            ID_GENERIC      LTM-PI-00020
+  [ORG_33]                   ORG             ATLAS LOGISTICS GROUP -
+  [ID_GENERIC_27]            ID_GENERIC      ALG-33417
+  [PROFESSION_1]             PROFESSION      Warehouse Logistics Coordinator, Shift Lead
+  [NAME_PROVIDER_18]         NAME_PROVIDER   Osei
+  [NAME_PROVIDER_19]         NAME_PROVIDER   -Bonsu
+  [NAME_PATIENT_34]          NAME_PATIENT    . Halloway, Halloway
+  [NAME_PROVIDER_20]         NAME_PROVIDER   Danica Brant, HR Business Partner
+  [ID_GENERIC_28]            ID_GENERIC      LTM-PI-00021
+  [NAME_PROVIDER_21]         NAME_PROVIDER   CUSTODIAN, Office of the Records Custodian
+  [NAME_PATIENT_35]          NAME_PATIENT    Certification, PRODUCTION CERTIFICATION, Production, CERTIFICATION (+1 more)
+  [NAME_PATIENT_36]          NAME_PATIENT    Production
+  [ORG_34]                   ORG             Whitfield v. Corrigan Hauling LLC
+  [ORG_35]                   ORG             Piedmont County EMS
+  [ORG_36]                   ORG             Piedmont County General
+  [ORG_37]                   ORG             Northgate Family Medicine
+  [ORG_38]                   ORG             Meridian Rehabilitation & Sports
+  [ORG_39]                   ORG             Summit Interventional Pain
+  [ORG_40]                   ORG             Northstate Neurology
+  [ORG_41]                   ORG             Community Pharmacy
+  [ORG_42]                   ORG             Meridian
+  [ORG_43]                   ORG             Health System
+  [ORG_44]                   ORG             Atlas Logistics Group
+  [ID_GENERIC_29]            ID_GENERIC      LTM-PI-00022
+
+=== REVIEW QUEUE ===
+  ? [ID_GENERIC_1]       'EMS-2024-03318' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [GEO_STREET_1]       '17' -- score 0.34 in review band [0.2, 0.55) via tagger
+  ? [ID_GENERIC_2]       'LTM-PI-00001' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [NAME_PATIENT_5]     'Department' -- score 0.48 in review band [0.2, 0.55) via propagated:tagger
+  ? [ID_GENERIC_3]       'ED-24-0211-556' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [DATE_7]             '19' -- score 0.53 in review band [0.2, 0.55) via tagger
+  ? [ID_GENERIC_4]       'LTM-PI-00002' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [NAME_PATIENT_5]     'Department' -- score 0.48 in review band [0.2, 0.55) via propagated:tagger
+  ? [ID_GENERIC_5]       'LTM-PI-00003' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [NAME_PATIENT_5]     'Department' -- score 0.48 in review band [0.2, 0.55) via propagated:tagger
+  ? [ID_GENERIC_6]       'CT-24-118844' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [ID_GENERIC_7]       'XR-24-118851' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [DATE_16]            '05' -- score 0.42 in review band [0.2, 0.55) via tagger
+  ? [ID_GENERIC_8]       'LTM-PI-00004' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [NAME_PATIENT_5]     'Department' -- score 0.48 in review band [0.2, 0.55) via propagated:tagger
+  ? [ID_GENERIC_9]       'LTM-PI-00005' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [ID_GENERIC_10]      'LTM-PI-00006' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [ID_GENERIC_11]      '2x/week' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [ID_GENERIC_12]      'LTM-PI-00007' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [ID_GENERIC_13]      'MR-24-20719' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [ID_GENERIC_14]      'LTM-PI-00008' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [ID_GENERIC_15]      'LTM-PI-00009' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [ID_GENERIC_16]      'LTM-PI-00010' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [ID_GENERIC_17]      'LTM-PI-00011' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [ID_GENERIC_18]      'LTM-PI-00012' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [NAME_PATIENT_5]     'DEPARTMENT' -- score 0.48 in review band [0.2, 0.55) via tagger
+  ? [ID_GENERIC_19]      'LTM-PI-00013' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [ID_GENERIC_20]      'LTM-PI-00014' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [NAME_PATIENT_5]     'Department' -- score 0.48 in review band [0.2, 0.55) via propagated:tagger
+  ? [DATE_36]            '13' -- score 0.35 in review band [0.2, 0.55) via tagger
+  ? [DATE_37]            '48' -- score 0.42 in review band [0.2, 0.55) via tagger
+  ? [ID_GENERIC_21]      'LTM-PI-00015' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [ID_GENERIC_22]      'LTM-PI-00016' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [ID_GENERIC_23]      'LTM-PI-00017' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [ID_GENERIC_24]      'LTM-PI-00018' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [ID_GENERIC_25]      'LTM-PI-00019' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [ID_GENERIC_26]      'LTM-PI-00020' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [ID_GENERIC_27]      'ALG-33417' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [ID_GENERIC_28]      'LTM-PI-00021' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+  ? [ID_GENERIC_29]      'LTM-PI-00022' -- score 0.40 in review band [0.2, 0.55) via opaque_id
+
+=== SELF-CHECK === clean
+
+=== SUMMARY ===
+{
+  "spans": 546,
+  "placeholders": 204,
+  "by_category": {
+    "NAME_PATIENT": 143,
+    "DATE": 216,
+    "ACCOUNT": 24,
+    "ORG": 58,
+    "AGE": 7,
+    "ID_GENERIC": 29,
+    "GEO_STREET": 2,
+    "NAME_PROVIDER": 61,
+    "MRN": 4,
+    "HEALTH_PLAN_ID": 1,
+    "PROFESSION": 1
+  },
+  "review_queue": 40,
+  "leaked": false,
+  "blocked": false,
+  "candidates": 1593,
+  "date_mode": "interval_preserving",
+  "ms_detect": 55429.57,
+  "ms_mask": 2193.34,
+  "ms_selfcheck": 763.42,
+  "ms_total": 58386.34
+}

@@ -1,0 +1,29 @@
+Metadata-Version: 2.4
+Name: phi-gateway
+Version: 0.1.0
+Summary: PHI/PII de-identification gateway for clinical text in front of a foundation LLM
+Requires-Python: >=3.10
+Requires-Dist: rapidfuzz>=3.6
+Requires-Dist: cryptography>=42.0
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: pydantic>=2.6
+Requires-Dist: fastapi>=0.110
+Requires-Dist: uvicorn>=0.29
+Requires-Dist: openai>=1.30
+Provides-Extra: ml
+Requires-Dist: torch>=2.2; extra == "ml"
+Requires-Dist: transformers>=4.48; extra == "ml"
+Requires-Dist: datasets>=2.19; extra == "ml"
+Requires-Dist: accelerate>=0.30; extra == "ml"
+Requires-Dist: seqeval>=1.2; extra == "ml"
+Provides-Extra: data
+Requires-Dist: faker>=25.0; extra == "data"
+Requires-Dist: datasets>=2.19; extra == "data"
+Provides-Extra: eval
+Requires-Dist: presidio-analyzer>=2.2; extra == "eval"
+Requires-Dist: spacy>=3.7; extra == "eval"
+Requires-Dist: matplotlib>=3.8; extra == "eval"
+Requires-Dist: pandas>=2.2; extra == "eval"
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: pytest-cov>=5.0; extra == "dev"

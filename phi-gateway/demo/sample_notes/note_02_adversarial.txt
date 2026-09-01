@@ -1,0 +1,35 @@
+ADVERSARIAL NOTE -- every line here is a trap the brief names explicitly:
+eponyms used as both people and diseases, patients whose surname is also an
+organisation, providers named without a "Dr." cue, identifiers hidden in
+tables and signature blocks, and an age over 89.
+
+Patient: crohn, michael j      | MRN 77-4412-9 | DOB: 11/02/1931 | Age: 93
+Referred by: Crohn Regional Health System
+
+Mr. Crohn was evaluated for a flare of Crohn's disease. Dr. Crohn -- no
+relation -- reviewed the endoscopy. Hodgkin was the admitting resident;
+the differential included Hodgkin lymphoma, which was excluded. Graves
+was consulted for suspected Graves' disease. Addison denied any features
+of Addison's disease. Bell noted a resolving Bell's palsy on the left.
+
+The patient's spouse, ALZHEIMER, RUTH, is the healthcare proxy. She is a
+nonagenarian and lives at the same address.
+
++----------------------+----------------------------+
+| Field                | Value                      |
++----------------------+----------------------------+
+| Primary Care         | wilson, a  (not Wilson's)  |
+| Pharmacy Fax         | 214-555-0166               |
+| Member Number        | UHC-4471-88213             |
+| Portal               | www.crohnregional.example  |
+| Home ZIP             | 03601                      |
++----------------------+----------------------------+
+
+Paget reported the bone scan was negative for Paget's disease. Barrett
+performed the endoscopy; no Barrett's oesophagus was seen. Whipple was
+scrubbed in but the Whipple procedure was deferred.
+
+Sent to marcus.hodgkin@example.net for co-signature.
+
+/s/ M. Hodgkin, PA-C          Pager 469-555-0102
+/s/ A. Wilson, RN             Employee ID EMP-99231
